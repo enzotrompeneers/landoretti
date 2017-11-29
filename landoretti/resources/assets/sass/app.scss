@@ -1,0 +1,19 @@
+// Settings  
+@import "settings";  
+  
+// Foundation  
+@import "node_modules/foundation-sites/scss/foundation";  
+  
+// Include Everything (True) for the Flex Grid;  
+@include foundation-everything(true);  
+
+// atoms
+@import "atoms/root-element";
+@import "atoms/metadata-and-scripting";
+@import "atoms/embedded-content";
+@import "atoms/text-level-semantics";
+@import "atoms/grouping-content";
+@import "atoms/forms";
+@import "atoms/document-sections";
+@import "atoms/tabular-data";
+@import "atoms/interactive-elements";
