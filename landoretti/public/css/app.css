@@ -11522,23 +11522,10 @@ a.thumbnail image {
   height: 4px;
 }
 
-.header-logo {
-  margin: 0px auto;
-  width: 75px;
-  height: 130px;
-}
-
-.header-logo-container {
-  background-color: #ffff;
-  -webkit-box-shadow: 0px 0px 24px 0px rgba(1, 1, 1, 0.19);
-          box-shadow: 0px 0px 24px 0px rgba(1, 1, 1, 0.19);
-  width: 103px;
-  height: 140px;
-  margin: -4px 0 0 15.73333333%;
-  float: left;
-}
-
-.header-personal-options {
+.header-top {
+  background-color: #fff;
+  top: 4px;
+  height: 50px;
   font-family: Arial;
   font-size: 0.813rem;
   font-weight: 400;
@@ -11547,26 +11534,176 @@ a.thumbnail image {
   text-transform: uppercase;
 }
 
-.header-personal-options ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+.header-top .container {
+  width: 1024px;
+  margin: 0 auto;
 }
 
-.header-personal-options li {
+.header-top .container .container-logo {
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 24px 0px rgba(1, 1, 1, 0.19);
+          box-shadow: 0px 0px 24px 0px rgba(1, 1, 1, 0.19);
+  width: 103px;
+  height: 140px;
+  margin-top: -4px;
+  margin-right: 70px;
   float: left;
 }
 
-.header-personal-options li a {
-  display: block;
-  text-align: center;
-  padding: 14px 16px;
+.header-top .container .container-logo .logo-image {
+  margin: 0px auto;
+  width: 75px;
+  height: 130px;
+}
+
+.header-top .container ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header-top .container ul li {
+  float: left;
+  margin-top: 18px;
+  padding: 0 24px 0 0;
+  color: #0a1e75;
+}
+
+.header-top .container ul li:first-child {
+  margin-left: 4.66666667;
+}
+
+.header-top .container ul li + li::before {
+  content: "|";
+  padding: 0 22px 0 0;
+}
+
+.header-top .container ul li a {
   text-decoration: none;
   color: #0a1e75;
 }
 
-body {
-  background-color: grey;
+.header-top .container ul li .menu-icon {
+  height: 10px;
+  width: 11px;
+  margin: -2px 12px 0 0;
+}
+
+.header-top .container ul li .user-icon {
+  height: 14px;
+  width: 13px;
+  margin: -3px 10px 0 -5px;
+}
+
+.header-top .container .search {
+  padding-top: 11px;
+  float: right;
+}
+
+.header-top .container .search .input-group {
+  margin: 0;
+  padding: 0;
+}
+
+.header-top .container .search .input-group .searchbar {
+  border: solid 1px #bebebd;
+  border-radius: 5px;
+  background-color: #fff;
+  width: 211px;
+  height: 32px;
+  font-family: Arial;
+  color: #1d1d1b;
+  font-size: 0.938rem;
+  font-style: italic;
+  line-height: 1.4;
+  text-align: left;
+  padding-left: 23px;
+}
+
+.header-top .container .search .input-group .search-icon {
+  height: 18px;
+  width: 18px;
+  float: left;
+  margin: 6px 0 0 9px;
+}
+
+.header-bottom {
+  background-color: #eaeaea;
+  font-family: Arial;
+  height: 50px;
+}
+
+.header-bottom .container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.header-bottom .container .navigation {
+  color: #4e4e4e;
+  font-size: 0.938rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.4;
+  font-family: Arial;
+  float: left;
+}
+
+.header-bottom .container .navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header-bottom .container .navigation ul li {
+  float: left;
+  margin-top: 18px;
+  padding: 0 33px 0 0;
+  color: #0a1e75;
+}
+
+.header-bottom .container .navigation ul li:first-child {
+  margin-left: 4.66666667;
+}
+
+.header-bottom .container .navigation ul li a {
+  text-decoration: none;
+  color: #4e4e4e;
+}
+
+.header-bottom .container .languages {
+  color: #0a1e75;
+  font-size: 0.813rem;
+  text-transform: uppercase;
+  text-align: justify;
+  line-height: 1.615;
+  font-weight: 400;
+  position: relative;
+  float: right;
+  margin-top: 10px;
+}
+
+.header-bottom .container .languages ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header-bottom .container .languages ul li {
+  float: left;
+  padding: 0 0 0 21px;
+  color: #0a1e75;
+}
+
+.header-bottom .container .languages ul li:first-child {
+  margin-left: 4.66666667;
+}
+
+.header-bottom .container .languages ul li:last-child {
+  font-weight: 700;
+}
+
+.header-bottom .container .languages ul li a {
+  text-decoration: none;
+  color: #0a1e75;
 }
 

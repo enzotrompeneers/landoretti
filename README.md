@@ -4,14 +4,17 @@ Frontend: Een veilingsite voor kunstmerk. Responsive website moet hetzelfde erui
 ##  logboek
 29/11/17 initial project with foundation, atoms and blades  
 30/11/17 atoms: buttons, forms, groups, images, lists, tables, text, variables  
-1/12/17 header: top line, logo & logo container, personal options and installing font awesome
+1/12/17 header: top line, logo & logo container, personal options and installing font awesome  
+2/12/17 header: search
+6/12/17 header: navigation and languages
 
 ## init project (terminal or cmd)
 - `laravel new landoretti` (start project called landoretti)
 - `yarn install` (install all depencies for project)  
 - `yarn run watch` (run script watch for autocompiling sass)  
 - `php artisan serve` (start php built-in dev server)  
-- `npm install foundation-sites --save-dev` (install foundation package.json) 
+- `npm install foundation-sites --save-dev` (install foundation) 
+- `npm install font-awesome --save-dev` (install font awesome)  
 
 ## init foundation in project
 - in **resources/assets/sass/app.scss**, remove all the code and replace with:  
@@ -58,7 +61,6 @@ mix.sass('resources/assets/sass/app.scss', 'public/css');
 <script> $(document).foundation();</script>
 ```
 ## init font awesome in project
-- `npm install font-awesome --save-dev` (install font awesome)  
 - in **resources/assets/sass/app.scss**, add this code:  
 ``` html
 // Font Awesome
