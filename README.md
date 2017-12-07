@@ -5,8 +5,9 @@ Frontend: Een veilingsite voor kunstmerk. Responsive website moet hetzelfde erui
 29/11/17 initial project with foundation, atoms and blades  
 30/11/17 atoms: buttons, forms, groups, images, lists, tables, text, variables  
 1/12/17 header: top line, logo & logo container, personal options and installing font awesome  
-2/12/17 header: search
-6/12/17 header: navigation and languages
+2/12/17 header: search  
+6/12/17 header: navigation, languages and molecules  
+7/12/17 header: state menu
 
 ## init project (terminal or cmd)
 - `laravel new landoretti` (start project called landoretti)

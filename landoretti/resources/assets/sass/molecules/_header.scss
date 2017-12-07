@@ -1,0 +1,171 @@
+.line-top {
+	background-color: $color-primary;
+	height: 4px;
+}
+
+.container {
+	width: $size-container;
+	margin: 0 auto;
+}
+
+.header-top {
+	background-color: $color-header-top-background;
+	top: 4px;
+	height: 50px;
+	font-family: $font-primary;
+	font-size: 0.813rem;
+	font-weight: 400;
+	line-height: 1.615;
+	text-align: justify;
+	text-transform: uppercase;
+		
+	.container-logo {
+		background-color: $color-container-logo-background;
+		box-shadow: 0px 0px 24px 0px rgba(1, 1, 1, 0.19);
+		width: 103px;
+		height: 140px;
+		margin: -4px 70px 0 0;
+		float: left;
+	}
+
+	.logo-image {
+		margin: 0px auto;
+		width: 75px;
+		height: 130px;
+	}
+
+	li {
+		margin-top: 18px;
+		color: $color-secondary;
+
+		& + li::before {
+			content: "|";
+		}
+	}
+
+
+	.state-logged-in {
+		li {
+			padding: 0 24px 0 0;
+
+			& + li::before {
+				padding: 0 22px 0 0;
+			}
+		}
+	}	
+
+	.state-not-logged-in {
+		li {
+			padding: 0 40px 0 0;
+
+			& + li::before {
+				padding: 0 40px 0 0;
+			}
+		}
+	}	
+	
+
+	a {
+		color: $color-secondary;
+	}
+	
+	.menu-icon {
+		height: 10px;
+		width: 11px;
+		margin: -2px 12px 0 0;
+	}
+
+	.user-icon {
+		height: 14px;
+		width: 13px;
+		margin: -3px 10px 0 -5px;
+	}
+
+	.search {
+		padding-top: 11px;
+		float: right;
+	}
+
+	.input-group {
+		margin: 0;
+		padding: 0;
+	}
+
+	.searchbar {
+		border: solid 1px $color-search-border;
+		border-radius: 5px;
+		background-color: $color-search-background;
+		width: 211px;
+		height: 32px;
+		font-family: $font-primary;
+		color: $color-search-text;
+		font-size: 0.938rem;
+		font-style: italic;
+		line-height: 1.4;
+		text-align: left;
+		padding-left: 23px;
+	}
+
+
+	.search-icon {
+		height: 18px;
+		width: 18px;
+		float: left;
+		margin: 6px 0 0 9px;
+	}		
+}
+
+.header-bottom {
+	background-color: $color-header-bottom-background;
+	font-family: $font-primary;
+	height: 50px;
+
+	.navigation {
+		color: $color-navigation-text;
+		font-size: 0.938rem;
+		font-weight: bold;
+		text-transform: uppercase;
+		line-height: 1.4;
+		font-family: $font-primary;
+		float: left;
+			
+		li {
+			margin-top: 14px;
+			padding: 0 33px 0 0;
+			color: $color-secondary;
+		}
+
+		a {
+			color: $color-navigation-text;
+		}
+	}
+
+	.languages {
+		color: $color-languages-text;
+		font-size: 0.813rem;
+		text-transform: uppercase;
+		text-align: justify;
+		line-height: 1.615;
+		font-weight: 400;
+		position: relative;
+		float: right;
+		margin-top: 6px;
+			
+		li {
+			padding: 0 0 0 21px;
+			color: $color-secondary;
+
+			&:first-child {
+				margin-left: 70/$psd-width;
+			}
+
+			&:last-child {
+				font-weight: 700;
+			}
+		}
+
+		a {
+			color: $color-languages-text;
+		}
+	}
+}

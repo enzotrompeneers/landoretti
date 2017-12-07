@@ -11517,9 +11517,28 @@ a.thumbnail image {
   }
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float: left;
+}
+
+a {
+  text-decoration: none;
+}
+
 .line-top {
   background-color: #01a6a0;
   height: 4px;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
 }
 
 .header-top {
@@ -11534,78 +11553,74 @@ a.thumbnail image {
   text-transform: uppercase;
 }
 
-.header-top .container {
-  width: 1024px;
-  margin: 0 auto;
-}
-
-.header-top .container .container-logo {
+.header-top .container-logo {
   background-color: #fff;
   -webkit-box-shadow: 0px 0px 24px 0px rgba(1, 1, 1, 0.19);
           box-shadow: 0px 0px 24px 0px rgba(1, 1, 1, 0.19);
   width: 103px;
   height: 140px;
-  margin-top: -4px;
-  margin-right: 70px;
+  margin: -4px 70px 0 0;
   float: left;
 }
 
-.header-top .container .container-logo .logo-image {
+.header-top .logo-image {
   margin: 0px auto;
   width: 75px;
   height: 130px;
 }
 
-.header-top .container ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.header-top .container ul li {
-  float: left;
+.header-top li {
   margin-top: 18px;
-  padding: 0 24px 0 0;
   color: #0a1e75;
 }
 
-.header-top .container ul li:first-child {
-  margin-left: 4.66666667;
+.header-top li + li::before {
+  content: "|";
 }
 
-.header-top .container ul li + li::before {
-  content: "|";
+.header-top .state-logged-in li {
+  padding: 0 24px 0 0;
+}
+
+.header-top .state-logged-in li + li::before {
   padding: 0 22px 0 0;
 }
 
-.header-top .container ul li a {
-  text-decoration: none;
+.header-top .state-not-logged-in li {
+  padding: 0 40px 0 0;
+}
+
+.header-top .state-not-logged-in li + li::before {
+  padding: 0 40px 0 0;
+}
+
+.header-top a {
   color: #0a1e75;
 }
 
-.header-top .container ul li .menu-icon {
+.header-top .menu-icon {
   height: 10px;
   width: 11px;
   margin: -2px 12px 0 0;
 }
 
-.header-top .container ul li .user-icon {
+.header-top .user-icon {
   height: 14px;
   width: 13px;
   margin: -3px 10px 0 -5px;
 }
 
-.header-top .container .search {
+.header-top .search {
   padding-top: 11px;
   float: right;
 }
 
-.header-top .container .search .input-group {
+.header-top .input-group {
   margin: 0;
   padding: 0;
 }
 
-.header-top .container .search .input-group .searchbar {
+.header-top .searchbar {
   border: solid 1px #bebebd;
   border-radius: 5px;
   background-color: #fff;
@@ -11620,7 +11635,7 @@ a.thumbnail image {
   padding-left: 23px;
 }
 
-.header-top .container .search .input-group .search-icon {
+.header-top .search-icon {
   height: 18px;
   width: 18px;
   float: left;
@@ -11633,12 +11648,7 @@ a.thumbnail image {
   height: 50px;
 }
 
-.header-bottom .container {
-  width: 1024px;
-  margin: 0 auto;
-}
-
-.header-bottom .container .navigation {
+.header-bottom .navigation {
   color: #4e4e4e;
   font-size: 0.938rem;
   font-weight: bold;
@@ -11648,29 +11658,17 @@ a.thumbnail image {
   float: left;
 }
 
-.header-bottom .container .navigation ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.header-bottom .container .navigation ul li {
-  float: left;
-  margin-top: 18px;
+.header-bottom .navigation li {
+  margin-top: 14px;
   padding: 0 33px 0 0;
   color: #0a1e75;
 }
 
-.header-bottom .container .navigation ul li:first-child {
-  margin-left: 4.66666667;
-}
-
-.header-bottom .container .navigation ul li a {
-  text-decoration: none;
+.header-bottom .navigation a {
   color: #4e4e4e;
 }
 
-.header-bottom .container .languages {
+.header-bottom .languages {
   color: #0a1e75;
   font-size: 0.813rem;
   text-transform: uppercase;
@@ -11679,31 +11677,23 @@ a.thumbnail image {
   font-weight: 400;
   position: relative;
   float: right;
-  margin-top: 10px;
+  margin-top: 6px;
 }
 
-.header-bottom .container .languages ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.header-bottom .container .languages ul li {
-  float: left;
+.header-bottom .languages li {
   padding: 0 0 0 21px;
   color: #0a1e75;
 }
 
-.header-bottom .container .languages ul li:first-child {
+.header-bottom .languages li:first-child {
   margin-left: 4.66666667;
 }
 
-.header-bottom .container .languages ul li:last-child {
+.header-bottom .languages li:last-child {
   font-weight: 700;
 }
 
-.header-bottom .container .languages ul li a {
-  text-decoration: none;
+.header-bottom .languages a {
   color: #0a1e75;
 }
 
