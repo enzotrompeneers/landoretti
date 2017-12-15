@@ -7,7 +7,8 @@ Frontend: Een veilingsite voor kunstmerk. Responsive website moet hetzelfde erui
 1/12/17 header: top line, logo & logo container, personal options and installing font awesome  
 2/12/17 header: search  
 6/12/17 header: navigation, languages and molecules  
-7/12/17 header: state menu
+7/12/17 header: state menu  
+15/12/17 header: interactive state  
 
 ## init project (terminal or cmd)
 - `laravel new landoretti` (start project called landoretti)

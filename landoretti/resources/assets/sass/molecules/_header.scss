@@ -45,6 +45,7 @@
 
 
 	.state-logged-in {
+		float: left;
 		li {
 			padding: 0 24px 0 0;
 
@@ -56,14 +57,56 @@
 
 	.state-not-logged-in {
 		li {
-			padding: 0 40px 0 0;
+				padding: 0 40px 0 0;
 
 			& + li::before {
 				padding: 0 40px 0 0;
 			}
 		}
-	}	
-	
+	}
+
+	.state-interaction {
+		display: none;
+
+		input {
+			margin: -5px 0 0 0;
+			height: 28px;
+			font-size: 1rem;
+			line-height: 1;
+			background-color: $color-interaction-background;
+			color: $color-interaction-text;
+			font-size: 0.938rem;
+			font-style: italic;
+			border: solid 1px $color-interaction-border;
+			width: 104px;
+			box-shadow: none;
+
+			&::placeholder { 
+				color: $color-interaction-text;
+			}
+		}
+
+		.login {
+			margin: -5px 0 0 0;
+			height: 28px;
+			width: 28px;
+			background-color: $color-interaction-button-background;
+
+		}
+
+		.register {
+			padding-right: 25px;
+		}
+
+		li {
+			padding: 0 25px 0 0;
+
+			& + li::before{
+				content: "";
+			}
+		}
+
+	}
 
 	a {
 		color: $color-secondary;
@@ -104,8 +147,11 @@
 		line-height: 1.4;
 		text-align: left;
 		padding-left: 23px;
-	}
 
+		&::placeholder { 
+		   color: $color-search-text;
+		}
+	}
 
 	.search-icon {
 		height: 18px;

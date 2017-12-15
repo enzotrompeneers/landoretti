@@ -11578,6 +11578,10 @@ a {
   content: "|";
 }
 
+.header-top .state-logged-in {
+  float: left;
+}
+
 .header-top .state-logged-in li {
   padding: 0 24px 0 0;
 }
@@ -11592,6 +11596,60 @@ a {
 
 .header-top .state-not-logged-in li + li::before {
   padding: 0 40px 0 0;
+}
+
+.header-top .state-interaction {
+  display: none;
+}
+
+.header-top .state-interaction input {
+  margin: -5px 0 0 0;
+  height: 28px;
+  font-size: 1rem;
+  line-height: 1;
+  background-color: #f8f8f8;
+  color: #6f6f6d;
+  font-size: 0.938rem;
+  font-style: italic;
+  border: solid 1px #e6e6e6;
+  width: 104px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.header-top .state-interaction input::-webkit-input-placeholder {
+  color: #6f6f6d;
+}
+
+.header-top .state-interaction input:-ms-input-placeholder {
+  color: #6f6f6d;
+}
+
+.header-top .state-interaction input::-ms-input-placeholder {
+  color: #6f6f6d;
+}
+
+.header-top .state-interaction input::placeholder {
+  color: #6f6f6d;
+}
+
+.header-top .state-interaction .login {
+  margin: -5px 0 0 0;
+  height: 28px;
+  width: 28px;
+  background-color: #e5e5e5;
+}
+
+.header-top .state-interaction .register {
+  padding-right: 25px;
+}
+
+.header-top .state-interaction li {
+  padding: 0 25px 0 0;
+}
+
+.header-top .state-interaction li + li::before {
+  content: "";
 }
 
 .header-top a {
@@ -11633,6 +11691,22 @@ a {
   line-height: 1.4;
   text-align: left;
   padding-left: 23px;
+}
+
+.header-top .searchbar::-webkit-input-placeholder {
+  color: #1d1d1b;
+}
+
+.header-top .searchbar:-ms-input-placeholder {
+  color: #1d1d1b;
+}
+
+.header-top .searchbar::-ms-input-placeholder {
+  color: #1d1d1b;
+}
+
+.header-top .searchbar::placeholder {
+  color: #1d1d1b;
 }
 
 .header-top .search-icon {
