@@ -11,6 +11,6 @@
 <meta property="og:locale" content="nl_BE"/>
 <meta property="og:type" content="website"/>
 <meta property="og:url" content="http://landoretti.be/"/>
-<!--<meta property="og:image" content="{{asset('assets/graphics/landoretti-logo.png')}}"/>-->
 
- <link href="/css/app.css" rel="stylesheet">
+<link rel="icon" href="{{ asset('graphics/favicon.ico') }}" type="image/x-icon" >
+<link href="/css/app.css" rel="stylesheet">

@@ -26,6 +26,7 @@
 		height: 140px;
 		margin: -4px 70px 0 0;
 		float: left;
+		z-index: 1;
 	}
 
 	.logo-image {
@@ -91,7 +92,6 @@
 			height: 28px;
 			width: 28px;
 			background-color: $color-interaction-button-background;
-
 		}
 
 		.register {
@@ -105,7 +105,6 @@
 				content: "";
 			}
 		}
-
 	}
 
 	a {
