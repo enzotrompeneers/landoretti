@@ -95,11 +95,23 @@
 					</li>
 				</ul>
 			</div>
+
 			<nav class="orbit-bullets">
 				<button class="bullet is-active" data-slide="0"><span class="show-for-sr">art on the wall</span><span class="show-for-sr">Current slide</span></button>
 				<button class="bullet" data-slide="1"><span class="show-for-sr">old camera</span></button>
 				<button class="bullet" data-slide="2"><span class="show-for-sr">record player</span></button>
 			</nav>
+
+			<div class="container">
+				<div class="intro-container">
+					<div class="art-icon"></div>
+					<div class="intro-text">
+						<p>
+							Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a.
+						</p>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 	

@@ -16,33 +16,70 @@
 		width: 16px;
 		height: 15px;
 		z-index: 2;
-		margin: 0 5px;
+		margin: 0 10px;
 		padding: 0;
 	}
+	
 	.orbit-previous, .orbit-next {
-		background-color: rgba(0, 0, 0, 0.2);
+		background-color: $color-orbit-background;
 		width: 40px;
 		height: 70px;
 		padding: 8px;
+
+		.arrow-left {
+			border: solid $color-arrow-border;
+			border-width: 0 3px 3px 0;
+			display: inline-block;
+			padding: 3px;
+			transform: rotate(135deg);
+			height: 21px;
+			width: 21px;
+		}
+		.arrow-right {
+			border: solid $color-arrow-border;
+			border-width: 0 3px 3px 0;
+			display: inline-block;
+			padding: 3px;
+			transform: rotate(-45deg);
+			height: 21px;
+			width: 21px;
+		}
 	}
 
-	.arrow-left {
-		border: solid rgba(250, 250, 250, 0.8);
-		border-width: 0 3px 3px 0;
-		display: inline-block;
-		padding: 3px;
-		transform: rotate(135deg);
-		height: 21px;
-		width: 21px;
+	.intro-container {
+		background-color: $color-intro-container-background;
+		width: 1024px;
+		height: 190px;
+		margin-top: -290px;
+		z-index: 2;
+		position: relative;
+
+		.art-icon {
+			margin-left: -15px;
+			margin-top: -15px;
+			border-style: solid;
+			border-width: 7px;
+			border-color: #fff;
+			border-radius: 50%;
+			background-color: $color-primary;
+			width: 29px;
+			height: 29px;
+			display: inline-block;
+		}
+
+		.intro-text {
+			font-size: 0.938rem;
+			font-family: $font-primary;
+			color: #fff;
+			line-height: 1.4;
+			text-align: left;
+			margin: 0px 57px 34px 49px;
+			display: inline-block;
+			
+		}
 	}
-	.arrow-right {
-		border: solid rgba(250, 250, 250, 0.8);
-		border-width: 0 3px 3px 0;
-		display: inline-block;
-		padding: 3px;
-		transform: rotate(-45deg);
-		height: 21px;
-		width: 21px;
-	}
+	
 }
+
+
 
