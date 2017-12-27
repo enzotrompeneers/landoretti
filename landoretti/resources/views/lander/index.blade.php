@@ -74,8 +74,8 @@
 		<div class="orbit" role="region" aria-label="Landoretti art" data-orbit>
 			<div class="orbit-wrapper">
 				<div class="orbit-controls">
-					<button class="orbit-previous"><span class="show-for-sr">Previous slide</span>&#9664;&#xFE0E;</button>
-					<button class="orbit-next"><span class="show-for-sr">Next slide</span>&#9654;&#xFE0E;</button>
+					<button class="orbit-previous"><span class="show-for-sr">Previous slide</span><div class="arrow-left"></div></button>
+					<button class="orbit-next"><span class="show-for-sr">Next slide</span><div class="arrow-right"></div></button>
 				</div>
 				<ul class="orbit-container">
 					<li class="is-active orbit-slide">

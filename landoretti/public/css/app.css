@@ -12556,7 +12556,37 @@ a {
   width: 16px;
   height: 15px;
   z-index: 2;
-  margin: 0 10px;
+  margin: 0 5px;
   padding: 0;
+}
+
+.intro-block .orbit-previous,
+.intro-block .orbit-next {
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 40px;
+  height: 70px;
+  padding: 8px;
+}
+
+.intro-block .arrow-left {
+  border: solid rgba(250, 250, 250, 0.8);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  -webkit-transform: rotate(135deg);
+          transform: rotate(135deg);
+  height: 21px;
+  width: 21px;
+}
+
+.intro-block .arrow-right {
+  border: solid rgba(250, 250, 250, 0.8);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  height: 21px;
+  width: 21px;
 }
 

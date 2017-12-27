@@ -10,7 +10,7 @@ Frontend: Een veilingsite voor kunstmerk. Responsive website moet hetzelfde erui
 7/12/17 header: state menu  
 15/12/17 header: interactive state  
 26/12/17 Intro block: carousel with motion ui  
-27/12/17 Intro block: orbit bullets
+27/12/17 Intro block: orbit bullets, orbit arrows  
 
 ## init project (terminal or cmd)
 - `laravel new landoretti` (start project called landoretti)
