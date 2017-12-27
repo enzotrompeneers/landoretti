@@ -4,4 +4,21 @@
 	margin: auto;
 	display: block;
 	width: 100%;
+
+	.orbit-bullets {
+		margin-top: -46px;
+	}
+
+	.bullet {
+		border-radius: 50%;
+		border: solid 1px $color-bullet-border;
+		background-color: $color-bullet-background;
+		width: 16px;
+		height: 15px;
+		z-index: 2;
+		margin: 0 10px;
+		padding: 0;
+	}
 }
+
+
