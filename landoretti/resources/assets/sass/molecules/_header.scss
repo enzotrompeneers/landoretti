@@ -1,3 +1,11 @@
+.navbar {
+	position:absolute;
+    top: 0px;
+    width: 100%;
+    z-index:2;
+	
+}
+
 .line-top {
 	background-color: $color-primary;
 	height: 4px;

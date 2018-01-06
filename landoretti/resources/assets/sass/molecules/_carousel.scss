@@ -1,0 +1,179 @@
+#container-navbar-carousel {
+    position:relative;
+    float:left;
+    width:100%;
+    height: 100%;
+
+    .container-carousel {
+        position: relative;
+        float:left;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        display: block;
+        z-index: 1;
+
+        .owl-carousel {
+            display: none;
+            position: relative;
+            width: 100%;
+            height: 100%;
+
+            .owl-wrapper {
+                display: none;
+                position: relative;
+
+                &:after {
+                    content: ".";
+                    display: block;
+                    clear: both;
+                    visibility: hidden;
+                    line-height: 0;
+                    height: 0;
+                }
+            }
+
+            .owl-wrapper-outer {
+                overflow: hidden;
+                position: relative;
+                width: 100%;
+            }
+            .owl-wrapper-outer.autoHeight {
+                transition: height 500ms ease-in-out;
+            }
+            .owl-item {
+                float: left;
+            }
+
+            .owl-controls {
+                user-select: none;
+
+                .owl-page, .owl-buttons div {
+                    cursor: pointer;
+                }
+
+            }
+
+            div:not(.owl-controls) {
+                height: 100%;
+            }
+
+            .carousel img {
+                width:100%;
+                height:auto;
+            }
+
+            .slider {
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+            }
+
+            .wall-art {
+                background-image: $wall-art;
+            }
+
+            .camera {
+                background-image: $camera;
+            }
+
+            .record-player {
+                background-image: $record-player;
+            }
+
+            .owl-controls {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                //background-color: green;
+                top: 50%;
+
+                .orbit-previous, .orbit-next {
+                    background-color: $color-orbit-background;
+                    width: 40px;
+                    height: 70px;
+                    //background-color: red;
+                    position: absolute;
+                    top: 0;
+
+
+                    .arrow-left {
+                        border: solid $color-arrow-border;
+                        border-width: 0 4px 4px 0;
+                        transform: rotate(135deg);
+                        height: 25px !important;
+                        width: 25px;
+
+                    }
+
+                    .arrow-right {
+                        border: solid $color-arrow-border;
+                        border-width: 4px 0 0 4px;
+                        transform: rotate(135deg);
+                        height: 25px !important;
+                        width: 25px;
+                    }
+                }
+
+                .orbit-previous {
+                    padding: 15px !important;
+                    position: absolute;
+                }
+
+                .orbit-next {
+                    padding: 5px !important;
+                }
+            }
+            .owl-page {
+                top: 0;
+            }
+        }
+        .owl-theme {
+            .owl-controls .owl-page.active span,
+            .owl-controls.clickable .owl-page:hover span {
+                background: $color-controls-background-active;
+            }
+
+            .owl-pagination {
+                //background-color: blue;
+                top: 95%;
+                left: 46.5%;
+                margin: 0;
+                padding: 0;
+                position: absolute;
+            }
+
+            .owl-controls {
+                .owl-page {
+                    display: inline-block;
+                    zoom: 1;
+                }
+
+                .owl-page span{
+                    display: block;
+                    float: left;
+                    border-radius: 50%;
+                    border: solid 1px $color-bullet-border;
+                    background-color: $color-bullet-background;
+                    width: 16px;
+                    height: 15px;
+                    z-index: 2;
+                    margin: 0 10px;
+                    padding: 0;
+                }
+
+                .owl-page span.owl-numbers {
+                    height: auto;
+                    width: auto;
+                    color: #FFF;
+                    padding: 2px 10px;
+                    font-size: 12px;
+                    border-radius: 30px;
+                }
+            }
+        }
+    }
+}
+
+
