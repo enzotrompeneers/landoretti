@@ -4,4 +4,24 @@ html, body {
 	padding: 0;
 	border: 0;
 	margin: 0;
+	font-size: 100%;
+}
+
+h1 {
+	font-size: 2.5rem;
+	font-family: $font-title;
+	color: $color-h1;
+	line-height: 1.2;
+}
+
+@media #{$medium-only} {
+	html {
+		font-size: 90%;
+	}
+
+}
+@media #{$small-only} {
+	html {
+		font-size: 80%;
+	}
 }

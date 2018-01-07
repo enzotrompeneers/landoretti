@@ -7,6 +7,18 @@
 	margin-bottom: 81px;
 	position: absolute;
 
+	@media #{$medium-only} {
+		width: 80%;
+		left: 10%;
+		height: auto;
+	}
+
+	@media #{$small-only} {
+		width: 80%;
+		left: 10%;
+		height: auto;
+	}
+
 	.art-icon {
 		margin-left: -15px;
 		margin-top: -15px;
@@ -28,26 +40,13 @@
 		text-align: left;
 		margin: 0px 57px 34px 49px;
 		display: inline-block;
+
+		@media #{$small-only} {
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			max-width: 200px;
+		}
 		
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

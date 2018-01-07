@@ -137,11 +137,19 @@
 
             .owl-pagination {
                 //background-color: blue;
-                top: 95%;
+                top: 90%;
                 left: 46.5%;
                 margin: 0;
                 padding: 0;
                 position: absolute;
+
+                @media #{$medium-only} {
+                    left: 45%;
+                }
+
+                @media #{$small-only} {
+                    left: 35%;
+                }
             }
 
             .owl-controls {
@@ -175,5 +183,6 @@
         }
     }
 }
+
 
 
