@@ -64,21 +64,21 @@
 		> ul {
 			text-align: center;
 			position: absolute;
-			top: 35%;
-			left: 20%;
-			right: 20%;
+			top: 20%;
+			left: 40%;
+			right: 40%;
 
 			> li {
 				opacity: 0;
 				transition: .5s;
 				transition-delay: 0s;
 				float:none;
+				border-bottom: 1px solid $color-secondary;
 
 				> a {
 					text-decoration: none;
 					text-transform: uppercase;
 					color: $color-secondary;
-					font-weight: 700;
 					font-family: sans-serif;
 					display: block;
 					padding: 30px;
@@ -98,4 +98,53 @@
 			}
 		}
 	} 
+}
+
+.dropdown.menu.vertical > li > a::after {
+    margin-top: -7px;
+}
+.is-drilldown {
+	top: 25%;
+	text-align: center;
+
+	> ul {
+		> li {
+			padding: 5px;
+			> a {
+				color: $color-secondary;
+			}
+		}
+	}
+}
+.drilldown .is-drilldown-submenu-parent > a::after,  {
+    border-color: transparent transparent transparent $color-secondary;
+    //margin-left: 50px;
+}
+.drilldown .js-drilldown-back > a::before {
+    border-color: transparent $color-secondary transparent transparent;
+}
+.menu a {
+	color: $color-secondary;
+}
+
+.log-input {
+	width: 200px;
+	text-align: center;
+}
+
+.login-form {
+	position: relative;
+	top: 50%;
+	left: 25%;
+}
+.submit-arrow {
+	margin-top: 20px;
+}
+.drilldown label {
+	margin-top: 20px;
+	color: $color-secondary;
+}
+
+.drilldown .is-drilldown-submenu.is-active {
+    
 }

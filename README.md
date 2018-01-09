@@ -13,6 +13,7 @@ Frontend: Een veilingsite voor kunstmerk. Responsive website moet hetzelfde erui
 27/12/17 Intro block: orbit bullets, orbit arrows, container and text  
 6/1/17 Carousel fix full screen  
 7/1/17 Responsive to Medium Screen and hamburger menu  
+9/1/17 Responsive to Small screen  
 
 ## init project (terminal or cmd)
 - `laravel new landoretti` (start project called landoretti)

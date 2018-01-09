@@ -12957,9 +12957,9 @@ h1 {
 #hamburger-menu input ~ nav > ul {
   text-align: center;
   position: absolute;
-  top: 35%;
-  left: 20%;
-  right: 20%;
+  top: 20%;
+  left: 40%;
+  right: 40%;
 }
 
 #hamburger-menu input ~ nav > ul > li {
@@ -12969,13 +12969,13 @@ h1 {
   -webkit-transition-delay: 0s;
           transition-delay: 0s;
   float: none;
+  border-bottom: 1px solid #0a1e75;
 }
 
 #hamburger-menu input ~ nav > ul > li > a {
   text-decoration: none;
   text-transform: uppercase;
   color: #0a1e75;
-  font-weight: 700;
   font-family: sans-serif;
   display: block;
   padding: 30px;
@@ -12992,5 +12992,54 @@ h1 {
   -webkit-transition-delay: .5s;
           transition-delay: .5s;
   float: none;
+}
+
+.dropdown.menu.vertical > li > a::after {
+  margin-top: -7px;
+}
+
+.is-drilldown {
+  top: 25%;
+  text-align: center;
+}
+
+.is-drilldown > ul > li {
+  padding: 5px;
+}
+
+.is-drilldown > ul > li > a {
+  color: #0a1e75;
+}
+
+.drilldown .is-drilldown-submenu-parent > a::after {
+  border-color: transparent transparent transparent #0a1e75;
+}
+
+.drilldown .js-drilldown-back > a::before {
+  border-color: transparent #0a1e75 transparent transparent;
+}
+
+.menu a {
+  color: #0a1e75;
+}
+
+.log-input {
+  width: 200px;
+  text-align: center;
+}
+
+.login-form {
+  position: relative;
+  top: 50%;
+  left: 25%;
+}
+
+.submit-arrow {
+  margin-top: 20px;
+}
+
+.drilldown label {
+  margin-top: 20px;
+  color: #0a1e75;
 }
 
