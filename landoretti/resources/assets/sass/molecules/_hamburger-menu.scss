@@ -123,6 +123,7 @@
 .drilldown .js-drilldown-back > a::before {
     border-color: transparent $color-secondary transparent transparent;
 }
+
 .menu a {
 	color: $color-secondary;
 }
@@ -143,8 +144,4 @@
 .drilldown label {
 	margin-top: 20px;
 	color: $color-secondary;
-}
-
-.drilldown .is-drilldown-submenu.is-active {
-    
 }
