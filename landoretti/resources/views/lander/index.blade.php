@@ -30,50 +30,46 @@
 		    <span></span>
 		</label>
 		<nav>    
-		 <ul class="vertical menu" data-responsive-menu="drilldown medium-dropdown">
-			<li><a href="#">Search</a></li>
-			<li>
-				<a href="#">Language</a>
-				<ul class="horizontal menu">
-					<hr class="show-for-small-only">
-					<li><a class="log-input" href="">Nl</a></li>
-					<li><a class="log-input" href="">Fr</a></li>
-					<li><a class="log-input" href="">En</a></li>
-				</ul>
-			</li>
-			@if (Auth::user())
-				<li class="show-for-small-only"><a href=""></a>Watchlist</a></li>
-				<li class="show-for-small-only"><a href="">Profile</a></li>
-				<li class="show-for-small-only"><a href="">Logout</a></li>
-			@else
-				<li class="show-for-small-only"><a href="">Register</a></li>
-				<li class="show-for-small-only">
-					<a href="">Login</a>
+			 <ul class="vertical menu" data-responsive-menu="drilldown medium-dropdown">
+				<li><a href="">Search</a></li>
+				<li>
+					<a href="#">Language</a>
 					<ul class="horizontal menu">
-						<hr>
-						<form class="login-form" action="{{ route('login') }}" method="post">
-							{{ csrf_field() }}
-							<li><label for="user">Username</label><input class="log-input" type="text" name="user" placeholder="User" id="user"></li>
-							<li><label for="password">Password</label><input class="log-input" type="password" name="password" placeholder="Password" id="password"></li>
-							<li class="log-input"><input class="submit-arrow" type="image" src="{{ asset('assets/graphics/arrow-button.jpg') }}" alt="login" type="submit"/></li>
-							
-						</form>
+						<hr class="show-for-small-only">
+						<li><a class="log-input" href="">Nl</a></li>
+						<li><a class="log-input" href="">Fr</a></li>
+						<li><a class="log-input" href="">En</a></li>
 					</ul>
 				</li>
+				@if (Auth::user())
+					<li class="show-for-small-only"><a href=""></a>Watchlist</a></li>
+					<li class="show-for-small-only"><a href="">Profile</a></li>
+					<li class="show-for-small-only"><a href="">Logout</a></li>
+				@else
+					<li class="show-for-small-only"><a href="">Register</a></li>
+					<li class="show-for-small-only">
+						<a href="">Login</a>
+						<ul class="horizontal menu">
+							<hr>
+							<form class="login-form" action="{{ route('login') }}" method="post">
+								{{ csrf_field() }}
+								<li><label for="user">Username</label><input class="log-input" type="text" name="user" placeholder="User" id="user"></li>
+								<li><label for="password">Password</label><input class="log-input" type="password" name="password" placeholder="Password" id="password"></li>
+								<li class="log-input"><input class="submit-arrow" type="image" src="{{ asset('assets/graphics/arrow-button.jpg') }}" alt="login" type="submit"/></li>
+								
+							</form>
+						</ul>
+					</li>
 
-					
-			@endif
-			<li class="show-for-small-only"><a href="">Home</a></li>
-			<li class="show-for-small-only"><a href="">Art</a></li>
-			<li class="show-for-small-only"><a href="">Isearch</a></li>
-			<li class="show-for-small-only"><a href="">Myaunctions</a></li>
-			<li class="show-for-small-only"><a href="">Mybids</a></li>
-			<li class="show-for-small-only"><a href="">Contact</a></li>
-		</ul>
-
-		<ul>
-			
-		</ul>
+						
+				@endif
+				<li class="show-for-small-only"><a href="">Home</a></li>
+				<li class="show-for-small-only"><a href="">Art</a></li>
+				<li class="show-for-small-only"><a href="">Isearch</a></li>
+				<li class="show-for-small-only"><a href="">Myaunctions</a></li>
+				<li class="show-for-small-only"><a href="">Mybids</a></li>
+				<li class="show-for-small-only"><a href="">Contact</a></li>
+			</ul>
 		</nav>
 	</div>
 
@@ -111,8 +107,6 @@
 							</form>
 						</div>
 					@endif
-
-				
 				</ul>
 
 				<div class="search show-for-large">
@@ -148,42 +142,36 @@
 			</div>
 		</div>
   	</div>
+</div>
+<hr>
 
-  	<div class="container">
-  		<div class="info-container show-for-large">
-  			<div class="grid-container text-center">
-  				<h1>How does it work?</h1>
-				<div class="grid-x grid-margin-x grid-margin-y grid-padding-x grid-padding-y"> 
-					<div class="cell medium-6 large-4">
-						<b>Groot scherm</b><br>
-						kolomgrootte: 4 <br>
-						Foundation grid: 12 <br>
-						4 / 12 = 3 <br>
-						3 kolommen per rij
-					</div>
+<section class="info-block">
+	<div class="container text-center">
+		<h2>How does it work?</h2>
+		<div class="grid-container text-center">
+			<div class="grid-x"> 
+				<div class="cell small-12 medium-4 large-4">
+					<img src="{{ asset('assets/graphics/pencil.png') }}" title="sign up" alt="pencil">
+					<h3>Sign up</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+				</div>
 
-					<div class="cell medium-6 large-4">
-						<b>Middelmatig scherm</b><br>
-						kolomgrootte: 6 <br>
-						Foundation grid: 12 <br>
-						6 / 12 = 2 <br>
-						2 kolommen per rij
-					</div>
+				<div class="cell small-12 medium-4 large-4">
+					<img src="{{ asset('assets/graphics/check-mark.png') }}" title="make deals" alt="check mark">
+					<h3>Make deals</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+				</div>
 
-					<div class="cell medium-6 large-4">
-						<b>Klein scherm</b><br>
-						kolomgrootte: 12 <br>
-						Foundation grid: 12 <br>
-						12 / 12 = 1 <br>
-						1 kolom per rij
-					</div>
-
-					
+				<div class="cell small-12 medium-4 large-4">
+					<img src="{{ asset('assets/graphics/smile-emoji.png') }}" title="everyone happy" alt="smile emoji">
+					<h3>Everyone happy!</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
 				</div>
 			</div>
-  			
-	  	</div>
-  	</div>
+		</div>
+	</div>
+</section>
+
 
   	
 

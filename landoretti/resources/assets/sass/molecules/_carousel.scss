@@ -47,6 +47,7 @@
 
             .owl-controls {
                 user-select: none;
+                height: 0;
 
                 .owl-page, .owl-buttons div {
                     cursor: pointer;
@@ -137,11 +138,12 @@
 
             .owl-pagination {
                 //background-color: blue;
-                top: 90%;
+                //top: 90%;
                 left: 46.5%;
                 margin: 0;
                 padding: 0;
                 position: absolute;
+                bottom: 20px;
 
                 @media #{$medium-only} {
                     left: 45%;
@@ -183,6 +185,3 @@
         }
     }
 }
-
-
-

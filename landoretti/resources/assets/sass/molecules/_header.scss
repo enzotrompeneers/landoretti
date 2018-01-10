@@ -12,15 +12,20 @@
 }
 
 .container {
-	width: $size-container;
-	margin: 0 auto;
+	@media (min-width: 1026px) {
+		width: $size-container;
+		margin: 0 auto;
+	}
+	@media (max-width: 1024px) {
+		width: 100%;
+	}
 }
 
 .header-top {
 	background-color: $color-header-top-background;
 	top: 4px;
 	height: 50px;
-	font-family: $font-primary;
+	font-family: $font-secondary;
 	font-size: 0.813rem;
 	font-weight: 400;
 	line-height: 1.615;
@@ -169,7 +174,7 @@
 		background-color: $color-search-background;
 		width: 211px;
 		height: 32px;
-		font-family: $font-primary;
+		font-family: $font-secondary;
 		color: $color-search-text;
 		font-size: 0.938rem;
 		font-style: italic;
@@ -192,7 +197,7 @@
 
 .header-bottom {
 	background-color: $color-header-bottom-background;
-	font-family: $font-primary;
+	font-family: $font-secondary;
 	height: 50px;
 
 	.navigation {
@@ -201,7 +206,7 @@
 		font-weight: bold;
 		text-transform: uppercase;
 		line-height: 1.4;
-		font-family: $font-primary;
+		font-family: $font-secondary;
 		float: left;
 			
 		li {

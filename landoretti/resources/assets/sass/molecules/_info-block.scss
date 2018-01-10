@@ -1,4 +1,30 @@
-.info-container {
-	text-align: center;
-	margin-top: 50px;
+.info-block {
+	height: auto;
+	padding: 20px 0 50px 0;
+
+	.container {
+		h2 {
+			margin-bottom: 50px;
+		}
+
+		.grid-container {
+			.grid-x {
+				div {
+					padding: 0 20px;
+					h3 {
+						margin: 35px 0 15px 0;
+					}
+
+					p {
+						font-size: 0.938rem;
+						font-family: $font-secondary;
+						font-weight: 400;
+						color: $color-p;
+						line-height: 1.333;
+						text-align: center;
+					}
+				}
+			}
+		}
+	}
 }

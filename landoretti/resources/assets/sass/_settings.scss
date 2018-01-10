@@ -862,12 +862,12 @@ $xy-grid: true;
 $grid-container: $global-width;
 $grid-columns: 12;
 $grid-margin-gutters: (
-  small: 20px,
-  medium: 30px
+  small: 0px,
+  medium: 0px
 );
-$grid-padding-gutters: $grid-margin-gutters;
-$grid-container-padding: $grid-padding-gutters;
-$grid-container-max: $global-width;
+$grid-padding-gutters: 0;
+$grid-container-padding: 0;
+$grid-container-max: 0;
 $xy-block-grid-max: 8;
 
 
