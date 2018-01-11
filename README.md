@@ -14,7 +14,8 @@ Frontend: Een veilingsite voor kunstmerk. Responsive website moet hetzelfde erui
 6/1/17 Carousel fix full screen  
 7/1/17 Responsive to Medium Screen and hamburger menu  
 9/1/17 Responsive to Small screen  
-10/1/17 info block
+10/1/17 info block  
+11/1/17 popular block  
 
 ## init project (terminal or cmd)
 - `laravel new landoretti` (start project called landoretti)

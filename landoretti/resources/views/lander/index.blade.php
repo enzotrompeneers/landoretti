@@ -172,6 +172,31 @@
 	</div>
 </section>
 
+<section class="popular-block">
+	<h2>Most popular this week</h2>
+	<img src="{{ asset('assets/graphics/arrow-down.svg') }}" alt="arrow down">
+	<div class="container">
+		<div class="grid-container">
+			<div class="grid-x">
+				<div class="cell small-12 medium-4 large-4">
+					<div class="cell small-12 medium-12 large-12">
+						<img class="overlay" src="{{ asset('assets/graphics/stamps.jpg') }}" title="stamps" alt="stamps">
+						<a href="#"><img src="{{ asset('assets/graphics/search-white.svg') }}" alt="search"></a>
+					</div>
+					<div class="cell small-12 medium-12 large-12">
+						<img class="overlay" src="{{ asset('assets/graphics/pink-lady.jpg') }}" title="pink lady" alt="pink lady">
+						<a href="#"><img src="{{ asset('assets/graphics/search-white.svg') }}" alt="search"></a>
+					</div>
+				</div>
+
+				<div class="cell small-12 medium-8 large-8">
+					<img class="overlay" src="{{ asset('assets/graphics/clock.jpg') }}" title="clock" alt="clock">
+					<a href="#"><img src="{{ asset('assets/graphics/search-white.svg') }}" alt="search"></a>
+				</div>
+			</div>
+		</div>
+</section>
+
 
   	
 

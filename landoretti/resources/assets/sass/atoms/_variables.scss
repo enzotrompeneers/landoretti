@@ -30,11 +30,16 @@ $color-intro-container-background: rgba(1, 32, 166, 0.65);
 
 $color-controls-background-active: #e2e2e2;
 
+$color-popular-block-background: #eaeaea;
+$color-popular-block-hover: #565656;
+$color-popular-block-hover-button: #e1e1e1;
+
 
 
 $color-h1: #0a1e75;
 $color-h2: #4e4e4e;
 $color-p: #4e4e4e;
+
 
 
 // fonts
@@ -47,3 +52,15 @@ $psd-width: 1500/100;
 $size-container: 1024px;
 $size-cell: ($size-container - 82px) / 3;
 
+$size-container-large: 1024;
+$size-container-medium: 702;
+$size-container-small: 314;
+
+
+// selectors
+@mixin transition($transition) {
+	-moz-transition: $transition;
+	-o-transition: $transition;
+	-webkit-transition: $transition;
+	transition: $transition;
+}
