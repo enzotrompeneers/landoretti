@@ -12317,6 +12317,16 @@ h3 {
   text-align: center;
 }
 
+h4 {
+  font-size: 1rem;
+  font-family: "Arial";
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.188;
+  text-align: left;
+}
+
 @media screen and (min-width: 42.1875em) and (max-width: 67.125em) {
   html {
     font-size: 90%;
@@ -13201,5 +13211,186 @@ h3 {
   bottom: 0;
   right: 0;
   text-align: center;
+}
+
+.footer {
+  height: 566px;
+  padding: 0 15px;
+}
+
+@media (max-width: 674px) {
+  .footer {
+    height: auto;
+  }
+}
+
+.footer .line {
+  padding-top: 100px;
+  border-bottom: 1px solid #e5e5e5;
+  margin: 0 -10px;
+}
+
+.footer .container {
+  padding-top: 40px;
+}
+
+.footer .container .grid-container div div {
+  padding: 0;
+}
+
+.footer .container .grid-container div div:nth-child(4) {
+  border-left: 1px solid #e5e5e5;
+  margin-top: -40px;
+  padding: 39px 0 0 28px;
+}
+
+.footer .container .grid-container div div nav ul {
+  margin: 0 0 10px 0;
+}
+
+.footer .container .grid-container div div nav ul.accordion-menu .is-accordion-submenu-parent:not(.has-submenu-toggle) > a::after {
+  border-color: #000 transparent transparent;
+}
+
+.footer .container .grid-container div div nav ul li a {
+  font-size: 0.875rem;
+  font-family: "Arial";
+  color: #01a6a0;
+  font-weight: 400;
+  line-height: 1.214;
+  padding: 0;
+}
+
+.footer .container .grid-container div div nav ul li a h4 {
+  margin-bottom: 0;
+}
+
+.footer .container .grid-container div div .search {
+  padding-top: 5px;
+  float: left;
+}
+
+@media screen and (min-width: 42.1875em) and (max-width: 67.125em) {
+  .footer .container .grid-container div div .search {
+    float: none;
+  }
+}
+
+.footer .container .grid-container div div .search .input-group {
+  margin: 0;
+  padding: 0;
+}
+
+.footer .container .grid-container div div .search .input-group .searchbar {
+  border: solid 1px #bebebd;
+  border-radius: 5px;
+  background-color: #fff;
+  width: calc(100%/240*185);
+  height: 32px;
+  font-family: "Arial";
+  color: #1d1d1b;
+  font-size: 0.938rem;
+  font-style: italic;
+  line-height: 1.4;
+  text-align: left;
+  padding-left: 23px;
+}
+
+.footer .container .grid-container div div .search .input-group .searchbar::-webkit-input-placeholder {
+  color: #1d1d1b;
+}
+
+.footer .container .grid-container div div .search .input-group .searchbar:-ms-input-placeholder {
+  color: #1d1d1b;
+}
+
+.footer .container .grid-container div div .search .input-group .searchbar::-ms-input-placeholder {
+  color: #1d1d1b;
+}
+
+.footer .container .grid-container div div .search .input-group .searchbar::placeholder {
+  color: #1d1d1b;
+}
+
+.footer .container .grid-container div div .search .input-group .search-icon {
+  height: 18px;
+  width: 18px;
+  float: left;
+  margin: 6px 0 0 9px;
+}
+
+.footer .container .grid-container div div .contact {
+  float: left;
+  margin-top: 10px;
+}
+
+.footer .container .grid-container div div .contact ul {
+  margin: 0;
+}
+
+.footer .container .grid-container div div .contact ul li {
+  font-size: 0.9375rem;
+  font-family: "Arial";
+  color: #5c5c5c;
+  line-height: 1.4;
+}
+
+.footer .container .grid-container div div .contact ul li:nth-child(3) {
+  margin-bottom: 30px;
+}
+
+.footer .container .grid-container div div .contact ul li .icon {
+  margin-right: 10px;
+}
+
+.footer .container .grid-container div div .contact ul li a {
+  color: #01a6a0;
+  text-decoration: underline;
+  display: inline-block;
+  padding: 0;
+}
+
+.footer .container .grid-container div div .contact ul.social-media {
+  margin-top: 25px;
+}
+
+.footer .container .grid-container div div .contact ul.social-media li {
+  margin: 0 5px 0 0;
+  float: left;
+}
+
+.footer .container .grid-container div div .contact ul.social-media li a {
+  background: url("/assets/graphics/social-media.png");
+  height: 31px;
+  width: 38.5px;
+}
+
+.footer .container .grid-container div div .contact ul.social-media li a.facebook {
+  background-position-x: 0;
+}
+
+.footer .container .grid-container div div .contact ul.social-media li a.twitter {
+  background-position-x: -38.5px;
+}
+
+.footer .container .grid-container div div .contact ul.social-media li a.youtube {
+  background-position-x: -77px;
+}
+
+.footer .container .grid-container div div .contact ul.social-media li a.google {
+  background-position-x: -115.5px;
+}
+
+.footer .container.copy {
+  padding-top: 0;
+}
+
+.footer .container.copy p {
+  font-size: 0.75rem;
+  font-family: "Arial";
+  color: #777777;
+  line-height: 1.5;
+  text-align: right;
+  margin: 0;
 }
 
