@@ -330,6 +330,22 @@
 									</li>
 								</ul>
 			                </nav>
+
+			                <nav>
+								<ul class="footer-menu vertical menu accordion-menu show-for-small-only">
+									<li>
+										<a href="#"><h4>Menu</h4></a>
+										<ul class="vertical nested menu ">
+											<li><a href="">Home</a></li>
+											<li><a href="">Art</a></li>
+											<li><a href="">Isearch</a></li>
+											<li><a href="">Myaunctions</a></li>
+											<li><a href="">Mybids</a></li>
+											<li><a href="">Contact</a></li>
+										</ul>
+									</li>
+								</ul>
+			                </nav>
 			            </div>
 
 			            <div class="cell medium-3">
@@ -375,6 +391,52 @@
         <p>&copy; 2013 Studio6, Inc. All rights reserved.</p>
     </div>
 </section>
+
+
+
+
+<section class="footer-nav">
+	<div class="header-bottom">
+
+		<div class="container">
+
+			<div class="navigation">
+				<ul class="vertical menu show-for-small-only">
+					<li><a href="">Home</a></li>
+					<li><a href="">Art</a></li>
+					<li><a href="">Isearch</a></li>
+					<li><a href="">Myaunctions</a></li>
+					<li><a href="">Mybids</a></li>
+					<li><a href="">Contact</a></li>
+				</ul>
+				<ul class="show-for-medium">
+					<li><a href="">Home</a></li>
+					<li><a href="">Art</a></li>
+					<li><a href="">Isearch</a></li>
+					<li><a href="">Myaunctions</a></li>
+					<li><a href="">Mybids</a></li>
+					<li><a href="">Contact</a></li>
+				</ul>
+			</div>
+			<div class="languages">
+				<ul class="">
+					<li><a href="">Nl</a></li>
+					<li><a href="">Fr</a></li>
+					<li><a href="">En</a></li>
+				</ul>
+			</div>
+
+			<div class="container-logo">
+				<div class="logo-image">
+					<a href="{{ route('lander.index') }}"><img src="{{ asset('assets/graphics/landoretti-art-bottom.png') }}" alt="landoretti art"></a>
+				</div>
+			</div>
+
+			
+		</div>
+	</div>
+	<div class="line-bottom"></div>
+</div>
 
 @stop
 

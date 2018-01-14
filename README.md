@@ -17,7 +17,7 @@ Frontend: Een veilingsite voor kunstmerk. Responsive website moet hetzelfde erui
 10/1/18 info block  
 11/1/18 popular block  
 12/1/18 Footer  
-14/1/18 Footer rensponsive by grid frame  
+14/1/18 Footer rensponsive by grid frame, footer navigation and responsive  
 
 ## init project (terminal or cmd)
 - `laravel new landoretti` (start project called landoretti)
