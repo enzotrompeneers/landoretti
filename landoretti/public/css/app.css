@@ -12339,20 +12339,6 @@ h4 {
   }
 }
 
-.How_does_it_work_ {
-  font-size: 40px;
-  font-family: "Helvetica";
-  color: #0a1e75;
-  line-height: 1.2;
-  text-align: center;
-  position: absolute;
-  left: 238.357px;
-  top: 1004.641px;
-  width: 322px;
-  height: 31px;
-  z-index: 94;
-}
-
 .navbar {
   position: absolute;
   top: 0px;
@@ -13230,29 +13216,35 @@ h4 {
   margin: 0 -10px;
 }
 
-.footer .container {
+.footer .container .grid-container .grid-y.medium-grid-frame {
+  height: auto;
+}
+
+.footer .container .grid-container .grid-y.medium-grid-frame div {
   padding-top: 40px;
 }
 
-.footer .container .grid-container div div {
+.footer .container .grid-container .grid-y.medium-grid-frame div div {
   padding: 0;
 }
 
-.footer .container .grid-container div div:nth-child(4) {
-  border-left: 1px solid #e5e5e5;
-  margin-top: -40px;
-  padding: 39px 0 0 28px;
+@media screen and (min-width: 42.1875em) {
+  .footer .container .grid-container .grid-y.medium-grid-frame div div:nth-child(4) {
+    border-left: 1px solid #e5e5e5;
+    margin-top: -40px;
+    padding: 39px 0 0 28px;
+  }
 }
 
-.footer .container .grid-container div div nav ul {
+.footer .container .grid-container .grid-y.medium-grid-frame div div nav ul {
   margin: 0 0 10px 0;
 }
 
-.footer .container .grid-container div div nav ul.accordion-menu .is-accordion-submenu-parent:not(.has-submenu-toggle) > a::after {
+.footer .container .grid-container .grid-y.medium-grid-frame div div nav ul.accordion-menu .is-accordion-submenu-parent:not(.has-submenu-toggle) > a::after {
   border-color: #000 transparent transparent;
 }
 
-.footer .container .grid-container div div nav ul li a {
+.footer .container .grid-container .grid-y.medium-grid-frame div div nav ul li a {
   font-size: 0.875rem;
   font-family: "Arial";
   color: #01a6a0;
@@ -13261,27 +13253,27 @@ h4 {
   padding: 0;
 }
 
-.footer .container .grid-container div div nav ul li a h4 {
+.footer .container .grid-container .grid-y.medium-grid-frame div div nav ul li a h4 {
   margin-bottom: 0;
 }
 
-.footer .container .grid-container div div .search {
+.footer .container .grid-container .grid-y.medium-grid-frame div div .search {
   padding-top: 5px;
   float: left;
 }
 
 @media screen and (min-width: 42.1875em) and (max-width: 67.125em) {
-  .footer .container .grid-container div div .search {
+  .footer .container .grid-container .grid-y.medium-grid-frame div div .search {
     float: none;
   }
 }
 
-.footer .container .grid-container div div .search .input-group {
+.footer .container .grid-container .grid-y.medium-grid-frame div div .search .input-group {
   margin: 0;
   padding: 0;
 }
 
-.footer .container .grid-container div div .search .input-group .searchbar {
+.footer .container .grid-container .grid-y.medium-grid-frame div div .search .input-group .searchbar {
   border: solid 1px #bebebd;
   border-radius: 5px;
   background-color: #fff;
@@ -13296,88 +13288,94 @@ h4 {
   padding-left: 23px;
 }
 
-.footer .container .grid-container div div .search .input-group .searchbar::-webkit-input-placeholder {
+.footer .container .grid-container .grid-y.medium-grid-frame div div .search .input-group .searchbar::-webkit-input-placeholder {
   color: #1d1d1b;
 }
 
-.footer .container .grid-container div div .search .input-group .searchbar:-ms-input-placeholder {
+.footer .container .grid-container .grid-y.medium-grid-frame div div .search .input-group .searchbar:-ms-input-placeholder {
   color: #1d1d1b;
 }
 
-.footer .container .grid-container div div .search .input-group .searchbar::-ms-input-placeholder {
+.footer .container .grid-container .grid-y.medium-grid-frame div div .search .input-group .searchbar::-ms-input-placeholder {
   color: #1d1d1b;
 }
 
-.footer .container .grid-container div div .search .input-group .searchbar::placeholder {
+.footer .container .grid-container .grid-y.medium-grid-frame div div .search .input-group .searchbar::placeholder {
   color: #1d1d1b;
 }
 
-.footer .container .grid-container div div .search .input-group .search-icon {
+.footer .container .grid-container .grid-y.medium-grid-frame div div .search .input-group .search-icon {
   height: 18px;
   width: 18px;
   float: left;
   margin: 6px 0 0 9px;
 }
 
-.footer .container .grid-container div div .contact {
+.footer .container .grid-container .grid-y.medium-grid-frame div div .contact {
   float: left;
   margin-top: 10px;
 }
 
-.footer .container .grid-container div div .contact ul {
+@media screen and (max-width: 42.125em) {
+  .footer .container .grid-container .grid-y.medium-grid-frame div div .contact {
+    width: 100%;
+  }
+}
+
+.footer .container .grid-container .grid-y.medium-grid-frame div div .contact ul {
   margin: 0;
 }
 
-.footer .container .grid-container div div .contact ul li {
+.footer .container .grid-container .grid-y.medium-grid-frame div div .contact ul li {
   font-size: 0.9375rem;
   font-family: "Arial";
   color: #5c5c5c;
   line-height: 1.4;
 }
 
-.footer .container .grid-container div div .contact ul li:nth-child(3) {
+.footer .container .grid-container .grid-y.medium-grid-frame div div .contact ul li:nth-child(3) {
   margin-bottom: 30px;
 }
 
-.footer .container .grid-container div div .contact ul li .icon {
+.footer .container .grid-container .grid-y.medium-grid-frame div div .contact ul li .icon {
   margin-right: 10px;
 }
 
-.footer .container .grid-container div div .contact ul li a {
+.footer .container .grid-container .grid-y.medium-grid-frame div div .contact ul li a {
   color: #01a6a0;
   text-decoration: underline;
   display: inline-block;
   padding: 0;
 }
 
-.footer .container .grid-container div div .contact ul.social-media {
+.footer .container .grid-container .grid-y.medium-grid-frame div div .contact ul.social-media {
   margin-top: 25px;
 }
 
-.footer .container .grid-container div div .contact ul.social-media li {
+.footer .container .grid-container .grid-y.medium-grid-frame div div .contact ul.social-media li {
   margin: 0 5px 0 0;
   float: left;
 }
 
-.footer .container .grid-container div div .contact ul.social-media li a {
+.footer .container .grid-container .grid-y.medium-grid-frame div div .contact ul.social-media li a {
   background: url("/assets/graphics/social-media.png");
   height: 31px;
   width: 38.5px;
 }
 
-.footer .container .grid-container div div .contact ul.social-media li a.facebook {
+.footer .container .grid-container .grid-y.medium-grid-frame div div .contact ul.social-media li a.facebook {
   background-position-x: 0;
 }
 
-.footer .container .grid-container div div .contact ul.social-media li a.twitter {
+.footer .container .grid-container .grid-y.medium-grid-frame div div .contact ul.social-media li a.twitter {
   background-position-x: -38.5px;
 }
 
-.footer .container .grid-container div div .contact ul.social-media li a.youtube {
+.footer .container .grid-container .grid-y.medium-grid-frame div div .contact ul.social-media li a.youtube {
   background-position-x: -77px;
 }
 
-.footer .container .grid-container div div .contact ul.social-media li a.google {
+.footer .container .grid-container .grid-y.medium-grid-frame div div .contact ul.social-media li a.google {
   background-position-x: -115.5px;
 }
 
