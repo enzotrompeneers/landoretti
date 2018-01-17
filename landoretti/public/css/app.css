@@ -13473,3 +13473,109 @@ h4 {
   height: 4px;
 }
 
+.spotlight {
+  background: url("/assets/graphics/record-player-spotlight.jpg");
+  background-size: cover;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  height: 536px;
+  width: 100%;
+}
+
+.spotlight .container {
+  padding-top: 104px;
+  height: 100%;
+}
+
+.spotlight .container .container-idea {
+  position: relative;
+  height: calc(100%/432*332);
+  margin: 50px 0;
+  width: 314px;
+  float: right;
+  color: #fff;
+  background-color: rgba(1, 32, 166, 0.65);
+}
+
+.spotlight .container .container-idea .art-icon {
+  margin-left: -15px;
+  margin-top: -15px;
+  border-style: solid;
+  border-width: 7px;
+  border-color: #fff;
+  border-radius: 50%;
+  background-color: #01a6a0;
+  width: 29px;
+  height: 29px;
+  display: inline-block;
+}
+
+.spotlight .container .container-idea .header {
+  height: calc(100%/332*252);
+}
+
+.spotlight .container .container-idea .header h1 {
+  font-size: 1.875rem;
+  padding: 6px 0 0 30px;
+  height: 50px;
+  font-weight: 300;
+  line-height: 0.7;
+  color: white;
+  border-bottom: 1px solid #6c7dc6;
+  margin: 0;
+}
+
+.spotlight .container .container-idea .header p {
+  margin: 0;
+  padding: 21px 30px 0 30px;
+  font-size: 0.938rem;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.spotlight .container .container-idea .header span {
+  margin-top: 14px;
+  display: inline-block;
+}
+
+.spotlight .container .container-idea .header span.price {
+  padding-left: 30px;
+  font-size: 0.938rem;
+  font-weight: 400;
+  line-height: 2.067;
+}
+
+.spotlight .container .container-idea .header span.amount {
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.167;
+}
+
+.spotlight .container .container-idea .btn-visit-auction {
+  padding-left: 30px;
+  display: inline-block;
+  background-color: white;
+  height: calc(100%/332*80);
+  width: 100%;
+  color: #01a6a0;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.05;
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.spotlight .container .container-idea .btn-visit-auction span {
+  background: url("/assets/graphics/arrow-right.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 22px;
+  width: 11px;
+  margin-left: 20px;
+}
+

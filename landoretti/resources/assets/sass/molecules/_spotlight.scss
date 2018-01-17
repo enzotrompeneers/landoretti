@@ -1,0 +1,101 @@
+.spotlight {
+	background: $record-player-spotlight;
+	background-size: cover;
+	background-position-x: center;
+	background-repeat: no-repeat;
+	height: $size-container-spotlight;
+	width: 100%;
+	
+	.container {
+		padding-top: 104px;
+		height: 100%;
+
+		.container-idea {
+			position: relative;
+			height: calc(100%/432*332);
+			margin: 50px 0;
+			width: 314px;
+			float: right;
+			color: #fff;
+			background-color: $color-intro-container-background;
+
+			.art-icon {
+				margin-left: -15px;
+				margin-top: -15px;
+				border-style: solid;
+				border-width: 7px;
+				border-color: #fff;
+				border-radius: 50%;
+				background-color: $color-primary;
+				width: 29px;
+				height: 29px;
+				display: inline-block;
+			}
+
+			.header {
+				height: calc(100%/332*252);
+
+				h1 {
+					font-size: 1.875rem;
+					padding: 6px 0 0 30px;
+					height: 50px;
+					font-weight: 300;
+					line-height: 0.7;
+					color: white;
+					border-bottom: 1px solid $color-idea-line;
+					margin: 0;
+				}
+
+				p {
+					margin: 0;
+					padding: 21px 30px 0 30px;
+					font-size: 0.938rem;
+					font-weight: 400;
+					line-height: 1.4;
+				}
+
+				span {
+					margin-top: 14px;
+					display: inline-block;
+
+					&.price {
+						padding-left: 30px;
+						font-size: 0.938rem;
+						font-weight: 400;
+						line-height: 2.067;
+					}
+
+					&.amount {
+						font-size: 1.125rem;
+						font-weight: 400;
+						line-height: 1.167;
+					}
+				}
+			}
+
+			.btn-visit-auction {
+				padding-left: 30px;
+				display: inline-block;
+				background-color: white;
+				height: calc(100%/332*80);
+				width: 100%;
+				color: $color-primary;
+				font-size: 1.25rem;
+				font-weight: 400;
+				line-height: 1.05;
+				text-transform: uppercase;
+				display: flex;
+    			align-items: center;
+
+				span {
+					background: $arrow-right;
+					background-repeat: no-repeat;
+					display: inline-block;
+					height: 22px;
+					width: 11px;
+					margin-left: 20px;
+				}
+			}
+		}
+	}
+}
