@@ -12,8 +12,6 @@
 		margin: 0 -10px;
 	}
 	.container {
-		//padding-top: 40px;
-
 		.grid-container {
 			.grid-y.medium-grid-frame {
 			    height: auto;
@@ -193,7 +191,7 @@
 .footer-nav {
 	position: relative;
 	width: 100%;
-	
+
 	.header-bottom {
 
 		@media #{$small-only} {
@@ -207,11 +205,9 @@
 				width: 103px;
 				height: 140px;
 				
-				
 				position: absolute;
 				bottom: 0;
 				z-index: 10000;
-
 
 				.logo-image {
 					

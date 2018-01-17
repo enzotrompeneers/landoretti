@@ -2,7 +2,7 @@
 
 @section('content')
 
-<div id="container-navbar-carousel">
+<section id="container-navbar-carousel">
 	<div class="container-carousel">
 		<div id="carousel-slider" class="owl-carousel owl-theme">
 			<div class="slider wall-art" title="wall art"></div>
@@ -142,7 +142,7 @@
 			</div>
 		</div>
   	</div>
-</div>
+</section>
 <hr>
 
 <section class="info-block">
@@ -199,7 +199,6 @@
 
 <section class="footer">
     <div class="line"></div>
-
     <div class="container">
         <div class="grid-container">
         	<div class="grid-y medium-grid-frame">
@@ -391,9 +390,6 @@
         <p>&copy; 2013 Studio6, Inc. All rights reserved.</p>
     </div>
 </section>
-
-
-
 
 <section class="footer-nav">
 	<div class="header-bottom">
