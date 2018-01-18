@@ -25,7 +25,7 @@
 										<ul class="vertical nested menu">
 											<li><a href="#">Terms of Service</a></li>
 			                                <li><a href="#">Privacy Policy</a></li>
-			                                <li><a href="index.php?page=faq">FAQ</a></li>
+			                                <li><a href="{{ route('faq') }}">FAQ</a></li>
 			                                <li><a href="#">Contact Us</a></li>
 			                                <li><a href="#">About Us</a></li>
 										</ul>

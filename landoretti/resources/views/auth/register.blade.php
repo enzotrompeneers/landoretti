@@ -4,7 +4,7 @@
     @include('includes.navigation')
     @include('includes.spotlight')
 
-    <section class="request">
+    <section class="register">
         <div class="container">
             <nav aria-label="You are here:" role="navigation">
                 <ul class="breadcrumbs">
