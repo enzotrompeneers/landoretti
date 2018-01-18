@@ -214,9 +214,9 @@ $stat-font-size: 2.5rem;
 
 $abide-inputs: true;
 $abide-labels: true;
-$input-background-invalid: get-color(alert);
-$form-label-color-invalid: get-color(alert);
-$input-error-color: get-color(alert);
+$input-background-invalid: none;
+$form-label-color-invalid: none;
+$input-error-color: none;
 $input-error-font-size: rem-calc(12);
 $input-error-font-weight: $global-weight-bold;
 
@@ -265,16 +265,16 @@ $badge-font-size: 0.6rem;
 // ---------------
 
 $breadcrumbs-margin: 0 0 $global-margin 0;
-$breadcrumbs-item-font-size: rem-calc(11);
-$breadcrumbs-item-color: $primary-color;
-$breadcrumbs-item-color-current: $black;
+$breadcrumbs-item-font-size: 0.9375rem;
+$breadcrumbs-item-color: #01a6a0;
+$breadcrumbs-item-color-current: #01a6a0;
 $breadcrumbs-item-color-disabled: $medium-gray;
-$breadcrumbs-item-margin: 0.75rem;
-$breadcrumbs-item-uppercase: true;
+$breadcrumbs-item-margin: 5px;
+$breadcrumbs-item-uppercase: false;
 $breadcrumbs-item-separator: true;
-$breadcrumbs-item-separator-item: '/';
+$breadcrumbs-item-separator-item: '>';
 $breadcrumbs-item-separator-item-rtl: '\\';
-$breadcrumbs-item-separator-color: $medium-gray;
+$breadcrumbs-item-separator-color: #01a6a0;
 
 // 11. Button
 // ----------

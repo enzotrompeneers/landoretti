@@ -36,8 +36,12 @@ $color-footer-background: #eaeaea;
 
 $color-idea-line: #6c7dc6;
 
+$darkestGrey: #757575;
+$darkerGrey: #545353;
 $darkgrey: #4e4e4e;
 $grey: #eaeaea;
+$lightergrey: #e5e5e5;
+$lightestGrey: #f5f5f5;
 
 $color-h1: #0a1e75;
 $color-h2: #4e4e4e;
@@ -46,6 +50,10 @@ $color-p: #4e4e4e;
 $color-contact: #5c5c5c;
 $color-copy: #777777;
 $color-line: #e5e5e5;
+
+$color-error-border: #fd0100;
+$color-error-background: #fff1f1;
+$color-error-text: #fb0206;
 
 // fonts
 $font-primary: "Helvetica";
@@ -70,4 +78,11 @@ $size-container-spotlight: 536px;
 	-o-transition: $transition;
 	-webkit-transition: $transition;
 	transition: $transition;
+}
+
+@mixin placeholder {
+	&::-webkit-input-placeholder {@content}
+	&:-moz-placeholder           {@content}
+	&::-moz-placeholder          {@content}
+	&:-ms-input-placeholder      {@content}  
 }

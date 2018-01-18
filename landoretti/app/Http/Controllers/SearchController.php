@@ -10,4 +10,9 @@ class SearchController extends Controller
     {
         return view('search.index');
     }
+
+    public function request()
+    {
+        return view('search.index');
+    }
 }
