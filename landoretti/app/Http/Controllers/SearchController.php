@@ -13,6 +13,6 @@ class SearchController extends Controller
 
     public function request()
     {
-        return view('search.index');
+        return back();
     }
 }

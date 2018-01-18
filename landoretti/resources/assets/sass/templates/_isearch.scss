@@ -124,5 +124,149 @@
 }
 
 .overview {
+    .container {
+        h3 {
+            color: #545353;
+            font-size: 1.563rem;
+            font-weight: 300;
+            line-height: 0.84;
+            margin-bottom: 28px;
+        }
 
+        .articles {
+            float: left;
+            height: auto;
+            padding-bottom: 15px;
+
+            &::after {
+                clear: both;
+                display: block;
+                content: "";
+            }
+
+            .grid-container {
+                .grid-x {
+                    article {
+                        padding: 0;
+                        height: 95px;
+                        border: 1px solid $lightergrey;
+                        border-bottom: 0;
+                        display: flex;
+                        align-items: center;
+
+                        @media (max-width: 767px) {
+                            height: auto;
+                            display: inline-block;
+                            padding: 15px 0;
+                        }
+
+                        &:last-child {
+                            border-bottom: 1px solid $lightergrey;
+                        }
+
+                        .info {
+                            width: calc(100%/1024*813);
+                            padding-left: 0;
+
+                            @media (max-width: 767px) {
+                                width: 100%;
+                            }
+
+                            p {
+                                padding-left: 46px;
+                                margin-bottom: 0;
+                                font-size: 0.93rem;
+                                font-weight: 400;
+                                line-height: 1.4;
+                                color: $color-overview-text;
+
+                                @media (max-width: 767px) {
+                                    padding-left: 15px;
+                                }
+
+                                span {
+                                    font-weight: 700;
+                                }
+                            }
+                        }
+
+                        .btn-own {
+                            width: calc(100%/1024*211);
+                            display: flex;
+                            justify-content: center;
+
+                            @media (max-width: 767px) {
+                                margin: 20px 10px;
+                                width: 100%;
+                                justify-content: baseline;
+                            }
+
+                            a {
+                                display: inline-block;
+                                width: 172px;
+                                background-color: $lightestGrey;
+                                height: 48px;
+                                text-align: center;
+                                border: 1px solid $lightergrey;
+                                font-size: 0.75rem;
+                                font-weight: 700;
+                                line-height: 4;
+                                text-align: center;
+                                color: $color-secondary;
+                                text-decoration: none;
+                                text-transform: uppercase;
+
+                                @media #{$small-only} {
+                                    line-height: 5;
+                                }
+
+                                &:hover {
+                                    background-color: $color-overview-button-hover;
+                                }
+
+                                span {
+                                    background: $arrow-right-blue;
+                                    background-repeat: no-repeat;
+                                    display: inline-block;
+                                    height: 22px;
+                                    width: 12px;
+                                    top: 11px;
+                                    left: 10px;
+                                    position: relative;
+                                    
+                                }
+                            } 
+                        }
+                    }
+                }
+            }
+        }
+
+        .pagination {
+            float: right;
+
+            .current {
+                font-weight: bold;
+                margin-top: -1px;
+
+                @media #{$medium-only} {
+                    margin-top: 0;
+                }
+            }
+
+            li:first-child {
+                margin-top: -2px;
+                padding-right: 10px;
+            }
+
+            li:last-child {
+                margin-top: -2px;
+                padding-left: 10px;
+            }
+        }
+
+        hr {
+            border: none;
+        }
+    }
 }

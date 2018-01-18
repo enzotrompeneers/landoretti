@@ -25,23 +25,22 @@
 				<li class="show-for-small-only"><a href="">Register</a></li>
 				<li class="show-for-small-only">
 					<a href="">Login</a>
-					<ul class="horizontal menu">
+					<ul class="vertical menu">
 						<hr>
 						<form class="login-form" action="{{ route('login') }}" method="post">
 							{{ csrf_field() }}
 							<li><label for="user">Username</label><input class="log-input" type="text" name="user" placeholder="User" id="user"></li>
 							<li><label for="password">Password</label><input class="log-input" type="password" name="password" placeholder="Password" id="password"></li>
 							<li class="log-input"><input class="submit-arrow" type="image" src="{{ asset('assets/graphics/arrow-button.jpg') }}" alt="login" type="submit"/></li>
-							
 						</form>
 					</ul>
 				</li>
 
 					
 			@endif
-			<li class="show-for-small-only"><a href="">Home</a></li>
+			<li class="show-for-small-only"><a href="{{ route('lander') }}">Home</a></li>
 			<li class="show-for-small-only"><a href="">Art</a></li>
-			<li class="show-for-small-only"><a href="">Isearch</a></li>
+			<li class="show-for-small-only"><a href="{{ route('isearch') }}">Isearch</a></li>
 			<li class="show-for-small-only"><a href="">Myaunctions</a></li>
 			<li class="show-for-small-only"><a href="">Mybids</a></li>
 			<li class="show-for-small-only"><a href="">Contact</a></li>
@@ -56,7 +55,7 @@
 		<div class="container">
 			<div class="container-logo">
 				<div class="logo-image">
-					<a href="{{ route('lander.index') }}"><img src="{{ asset('assets/graphics/landoretti-art.png') }}" alt="landoretti art"></a>
+					<a href="{{ route('lander') }}"><img src="{{ asset('assets/graphics/landoretti-art.png') }}" alt="landoretti art"></a>
 				</div>
 			</div>
 
@@ -100,9 +99,9 @@
 		<div class="container">
 			<div class="navigation">
 				<ul>
-					<li><a href="">Home</a></li>
+					<li><a href="{{ route('lander') }}">Home</a></li>
 					<li><a href="">Art</a></li>
-					<li><a href="">Isearch</a></li>
+					<li><a href="{{ route('isearch') }}">Isearch</a></li>
 					<li><a href="">Myaunctions</a></li>
 					<li><a href="">Mybids</a></li>
 					<li><a href="">Contact</a></li>
