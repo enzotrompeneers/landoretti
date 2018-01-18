@@ -12232,6 +12232,205 @@ a.thumbnail image {
   }
 }
 
+form .alert {
+  color: #fb0206;
+  border-color: #fd0100;
+}
+
+form .alert .error-list {
+  list-style-type: disc !important;
+  list-style-position: inside;
+  padding-left: 10px;
+  color: #fb0206;
+}
+
+form .alert .error-list li {
+  float: none;
+  list-style-type: disc !important;
+}
+
+form .grid-container .grid-x .cell {
+  padding: 0;
+  margin-bottom: 0;
+}
+
+form .grid-container .grid-x .cell.medium-3 {
+  width: calc(100%/1024*211);
+}
+
+form .grid-container .grid-x .cell.medium-6 {
+  width: calc(100%/1024*482);
+}
+
+form .grid-container .grid-x .cell.medium-9 {
+  width: calc(100%/1024*753);
+}
+
+form .grid-container .grid-x .cell.gutter {
+  margin-right: calc(100%/1024*60);
+}
+
+form .grid-container .grid-x .cell .country-code {
+  width: calc(100%/482*90);
+  margin-right: calc(100%/482*8);
+  float: left;
+}
+
+form .grid-container .grid-x .cell .phone-number {
+  width: calc(100%/482*384);
+}
+
+form .grid-container .grid-x .cell.terms {
+  padding: 0;
+  margin-top: 66px;
+}
+
+form .grid-container .grid-x .cell.terms input,
+form .grid-container .grid-x .cell.terms p {
+  float: left;
+  margin-top: 5px;
+}
+
+form .grid-container .grid-x .cell.terms input {
+  height: auto;
+  margin-right: 14px;
+}
+
+form .grid-container .grid-x .cell.terms p {
+  font-size: 0.938rem;
+  margin: 0;
+  color: #545353;
+}
+
+form .grid-container .grid-x .cell.terms p span {
+  color: #01a6a0;
+  text-decoration: underline;
+}
+
+form .grid-container .grid-x .cell.terms::after {
+  clear: both;
+  display: block;
+  content: "";
+}
+
+form .grid-container .grid-x .cell label {
+  margin: 0;
+  padding-bottom: 8px;
+  color: #0a1e75;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.05;
+}
+
+@media screen and (min-width: 42.1875em) and (max-width: 67.125em) {
+  form .grid-container .grid-x .cell {
+    width: 100% !important;
+    margin: 10px 0;
+  }
+}
+
+@media screen and (max-width: 42.125em) {
+  form .grid-container .grid-x .cell {
+    width: 100% !important;
+    margin: 5px 0;
+  }
+}
+
+form .grid-container .grid-x .cell select {
+  background-color: #f5f5f5;
+  border: 1px solid #e5e5e5;
+}
+
+form .grid-container .grid-x .cell input,
+form .grid-container .grid-x .cell textarea {
+  border-radius: 0;
+  color: #545353;
+  font-size: 0.938rem;
+  font-weight: 400;
+  line-height: 1.4;
+  height: 48px;
+  padding-left: 23px;
+}
+
+form .grid-container .grid-x .cell input[type="text"],
+form .grid-container .grid-x .cell input[type="password"],
+form .grid-container .grid-x .cell textarea[type="text"],
+form .grid-container .grid-x .cell textarea[type="password"] {
+  background-color: #f5f5f5;
+  border: 1px solid #e5e5e5;
+}
+
+form .grid-container .grid-x .cell input::-webkit-input-placeholder,
+form .grid-container .grid-x .cell textarea::-webkit-input-placeholder {
+  color: #545353;
+}
+
+form .grid-container .grid-x .cell input:-moz-placeholder,
+form .grid-container .grid-x .cell textarea:-moz-placeholder {
+  color: #545353;
+}
+
+form .grid-container .grid-x .cell input::-moz-placeholder,
+form .grid-container .grid-x .cell textarea::-moz-placeholder {
+  color: #545353;
+}
+
+form .grid-container .grid-x .cell input:-ms-input-placeholder,
+form .grid-container .grid-x .cell textarea:-ms-input-placeholder {
+  color: #545353;
+}
+
+form .grid-container .grid-x .cell textarea {
+  padding-top: 13px;
+}
+
+form .grid-container .grid-x .cell .request-message {
+  color: #545353;
+  font-size: 0.875rem;
+  font-weight: 300;
+  line-height: 1.5;
+  padding-bottom: 12px;
+}
+
+form .grid-container .grid-x .button {
+  margin-top: 30px;
+  width: 100%;
+  height: 48px;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.214;
+  background-color: #757575;
+  text-transform: uppercase;
+}
+
+.btn-register {
+  padding: 0;
+  margin-top: 32px;
+  width: calc(100%/1024*268);
+  font-family: 'Helvetica', sans-serif;
+  font-weight: lighter;
+  font-size: 1.3em;
+  background-color: #01a6a0;
+  height: 60px;
+  width: 255px;
+  color: white;
+  text-align: center;
+  border: none;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 42.1875em) and (max-width: 67.125em) {
+  .btn-register {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 42.125em) {
+  .btn-register {
+    width: 100%;
+  }
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -13570,126 +13769,6 @@ h4 {
   font-weight: 300;
   line-height: 0.84;
   margin-bottom: 23px;
-}
-
-.request .container form .alert {
-  color: #fb0206;
-  border-color: #fd0100;
-}
-
-.request .container form .alert .error-list {
-  list-style-type: disc !important;
-  list-style-position: inside;
-  padding-left: 10px;
-}
-
-.request .container form .alert .error-list li {
-  float: none;
-  list-style-type: disc !important;
-}
-
-.request .container form .grid-container .grid-x .cell {
-  padding: 0;
-  margin-bottom: 0;
-}
-
-.request .container form .grid-container .grid-x .cell.medium-3 {
-  width: calc(100%/1024*211);
-}
-
-.request .container form .grid-container .grid-x .cell.medium-6 {
-  width: calc(100%/1024*482);
-}
-
-.request .container form .grid-container .grid-x .cell.medium-9 {
-  width: calc(100%/1024*753);
-}
-
-.request .container form .grid-container .grid-x .cell.gutter {
-  margin-right: calc(100%/1024*60);
-}
-
-.request .container form .grid-container .grid-x .cell label {
-  margin: 0;
-  padding-bottom: 8px;
-  color: #0a1e75;
-  font-size: 1.25rem;
-  font-weight: 400;
-  line-height: 1.05;
-}
-
-@media screen and (min-width: 42.1875em) and (max-width: 67.125em) {
-  .request .container form .grid-container .grid-x .cell {
-    width: 100% !important;
-    margin: 10px 0;
-  }
-}
-
-@media screen and (max-width: 42.125em) {
-  .request .container form .grid-container .grid-x .cell {
-    width: 100% !important;
-    margin: 5px 0;
-  }
-}
-
-.request .container form .grid-container .grid-x .cell input,
-.request .container form .grid-container .grid-x .cell textarea {
-  border-radius: 0;
-  color: #545353;
-  font-size: 0.938rem;
-  font-weight: 400;
-  line-height: 1.4;
-  height: 48px;
-  padding-left: 23px;
-}
-
-.request .container form .grid-container .grid-x .cell input[type="text"],
-.request .container form .grid-container .grid-x .cell textarea[type="text"] {
-  background-color: #f5f5f5;
-  border: 1px solid #e5e5e5;
-}
-
-.request .container form .grid-container .grid-x .cell input::-webkit-input-placeholder,
-.request .container form .grid-container .grid-x .cell textarea::-webkit-input-placeholder {
-  color: #545353;
-}
-
-.request .container form .grid-container .grid-x .cell input:-moz-placeholder,
-.request .container form .grid-container .grid-x .cell textarea:-moz-placeholder {
-  color: #545353;
-}
-
-.request .container form .grid-container .grid-x .cell input::-moz-placeholder,
-.request .container form .grid-container .grid-x .cell textarea::-moz-placeholder {
-  color: #545353;
-}
-
-.request .container form .grid-container .grid-x .cell input:-ms-input-placeholder,
-.request .container form .grid-container .grid-x .cell textarea:-ms-input-placeholder {
-  color: #545353;
-}
-
-.request .container form .grid-container .grid-x .cell textarea {
-  padding-top: 13px;
-}
-
-.request .container form .grid-container .grid-x .cell .request-message {
-  color: #545353;
-  font-size: 0.875rem;
-  font-weight: 300;
-  line-height: 1.5;
-  padding-bottom: 12px;
-}
-
-.request .container form .grid-container .grid-x .button {
-  margin-top: 30px;
-  width: 100%;
-  height: 48px;
-  font-size: 0.875rem;
-  font-weight: 700;
-  line-height: 1.214;
-  background-color: #757575;
-  text-transform: uppercase;
 }
 
 .overview .container h3 {

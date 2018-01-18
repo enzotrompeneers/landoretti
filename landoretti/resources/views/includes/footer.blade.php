@@ -12,7 +12,7 @@
 										<a href="#"><h4>Help</h4></a>
 										<ul class="vertical nested menu">
 											<li><a href="#">Login</a></li>
-											<li><a href="#">Register</a></li>
+											<li><a href="{{ route('register') }}">Register</a></li>
 										</ul>
 									</li>
 								</ul>
@@ -243,49 +243,48 @@
 	$(document).foundation();
 
 	$(document).ready(function(){
-			// Login States
-			$('#login').click(function(){
-				$('.state-interaction').show();
-				$('.state-not-logged-in').hide();
-			});
-			// End Login States
-
-			// Carousel
-			$("#carousel-slider").owlCarousel({
-				navigation : true,
-				slideSpeed : 500,
-				paginationSpeed : 800,
-				rewindSpeed : 1000,
-				singleItem: true,
-				autoPlay : true,
-				stopOnHover : true,
-				pagination: true,
-			});
-
-			$( ".owl-next").html('<button class="orbit-next"><span class="show-for-sr">Next slide</span><div class="arrow-right"></div></button>');
- 			$( ".owl-prev").html('<button class="orbit-previous"><span class="show-for-sr">Previous slide</span><div class="arrow-left"></div></button>');
- 			// END Carousel
-
- 			// Accordion Menu for small screen
-			// Instantiate new accordion menu only if small screen
-			if (Foundation.MediaQuery.is('small only')) {
-				var elem = new Foundation.AccordionMenu($('.footer-menu'));
-			}
-
-			// React to screen size change
-			$(window).on('changed.zf.mediaquery', function(event, newSize, oldSize){
-
-			// only when we move from small to bigger
-			if(newSize == "medium" && oldSize == "small") {
-				$('.footer-menu').foundation('_destroy');
-			}
-			// only when we move back to small instantiate accordion menu
-			if(newSize == "small" && oldSize == "medium") {
-				var elem = new Foundation.AccordionMenu($('.footer-menu'));
-			}
-			// END Accordion Menu for smalls screen
-
-
-			});
+		// Login States
+		$('#login').click(function(){
+			$('.state-interaction').show();
+			$('.state-not-logged-in').hide();
 		});
+		// End Login States
+
+		// Carousel
+		$("#carousel-slider").owlCarousel({
+			navigation : true,
+			slideSpeed : 500,
+			paginationSpeed : 800,
+			rewindSpeed : 1000,
+			singleItem: true,
+			autoPlay : true,
+			stopOnHover : true,
+			pagination: true,
+		});
+
+		$( ".owl-next").html('<button class="orbit-next"><span class="show-for-sr">Next slide</span><div class="arrow-right"></div></button>');
+			$( ".owl-prev").html('<button class="orbit-previous"><span class="show-for-sr">Previous slide</span><div class="arrow-left"></div></button>');
+			// END Carousel
+
+			// Accordion Menu for small screen
+		// Instantiate new accordion menu only if small screen
+		if (Foundation.MediaQuery.is('small only')) {
+			var elem = new Foundation.AccordionMenu($('.footer-menu'));
+		}
+
+		// React to screen size change
+		$(window).on('changed.zf.mediaquery', function(event, newSize, oldSize){
+
+		// only when we move from small to bigger
+		if(newSize == "medium" && oldSize == "small") {
+			$('.footer-menu').foundation('_destroy');
+		}
+		// only when we move back to small instantiate accordion menu
+		if(newSize == "small" && oldSize == "medium") {
+			var elem = new Foundation.AccordionMenu($('.footer-menu'));
+		}
+		// END Accordion Menu for smalls screen
+
+		});
+	});
 </script>

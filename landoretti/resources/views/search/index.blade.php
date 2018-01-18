@@ -8,13 +8,12 @@
 	    <div class="container">
 	        <nav aria-label="You are here:" role="navigation">
 				<ul class="breadcrumbs">
-					<li><a href="#">Home</a></li>
+					<li><a href="{{ route('lander') }}">Home</a></li>
 					<li><span class="show-for-sr">Current: </span> I Search</li>
 				</ul>
 			</nav>
 
-	        <h1>I search</h1>
-	        <h3>Add a request</h3>
+	        <h1>Register</h1>
 
 			<form method="POST" action="{{ route('search.request') }}" data-abide novalidate>
 			{{ csrf_field() }}

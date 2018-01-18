@@ -22,7 +22,7 @@
 				<li class="show-for-small-only"><a href="">Profile</a></li>
 				<li class="show-for-small-only"><a href="">Logout</a></li>
 			@else
-				<li class="show-for-small-only"><a href="">Register</a></li>
+				<li class="show-for-small-only"><a href="{{ route('register') }}">Register</a></li>
 				<li class="show-for-small-only">
 					<a href="">Login</a>
 					<ul class="vertical menu">
@@ -68,14 +68,14 @@
 					</div>
 				@else
 					<div class="state-not-logged-in">
-						<li><a href="">Register</a></li>
+						<li><a href="{{ route('register') }}">Register</a></li>
 						<li><a id="login">Login</a></li>
 					</div>
 
 					<div class="state-interaction">
 						<form action="{{ route('login') }}" method="post">
 							{{ csrf_field() }}
-							<li><a class="register"href="">Register</a></li>
+							<li><a class="register" href="{{ route('register') }}">Register</a></li>
 							<li><input type="text" name="user" placeholder="User"></li>
 							<li><input type="password" name="password" placeholder="Password"></li>
 							<li><input class="login" type="image" src="{{ asset('assets/graphics/arrow-button.jpg') }}" alt="login" type="submit"/></li>
