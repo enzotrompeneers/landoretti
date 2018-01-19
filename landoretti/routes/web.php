@@ -16,3 +16,5 @@ Route::get('watchlist', 'WatchlistController@index')->name('watchlist');
 Route::get('detail', 'DetailController@index')->name('detail');
 
 Route::get('profile', 'ProfileController@index')->name('profile');
+
+Route::get('overview', 'OverviewController@index')->name('overview');

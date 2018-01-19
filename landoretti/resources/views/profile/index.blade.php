@@ -61,10 +61,7 @@
             <h2>Active auctions</h2>
             <div class="grid-container">
                 <div class="grid-x">
-                    
                    <div class="cell small-12 medium-3">                
-                        
-
                         <div class="cell small-12">
                             <img class="overlay" src="{{ asset('assets/graphics/laughing-men.jpg') }}" title="laughing men" alt="laughing men">
                             <a href="#"><img src="{{ asset('assets/graphics/search-white.svg') }}" alt="search"></a>
