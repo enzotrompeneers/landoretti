@@ -584,6 +584,18 @@
 									color: $color-secondary;
 									text-transform: uppercase;
 									padding: 18px;
+
+									span {
+										background: $arrow-right-blue;
+						                background-repeat: no-repeat;
+						                display: inline-block;
+						                height: 19px;
+						                width: 10px;
+						                top: 8px;
+						                left: 5px;
+						                position: relative;
+						                z-index: 10;
+									}
 								}
 							}
 						}

@@ -172,7 +172,7 @@
                                 <p class="price">€ 8.900</p>
                                 <div class="visit-auction">
                                     <p>25d 14u 44m</p>
-                                    <a href="#">visit auction &gt;</a>
+                                    <a href="#">visit auction<span></span></a>
                                 </div>
                             </div>
                         </div>                       
@@ -191,7 +191,7 @@
                                 <p class="price">€ 8.900</p>
                                 <div class="visit-auction">
                                     <p>25d 14u 44m</p>
-                                    <a href="#">visit auction &gt;</a>
+                                    <a href="#">visit auction<span></span></a>
                                 </div>
                             </div>
                         </div>
@@ -210,7 +210,7 @@
                                 <p class="price">€ 8.900</p>
                                 <div class="visit-auction">
                                     <p>25d 14u 44m</p>
-                                    <a href="#">visit auction &gt;</a>
+                                    <a href="#">visit auction<span></span></a>
                                 </div>
                             </div>
                         </div>                
@@ -229,7 +229,7 @@
                                 <p class="price">€ 8.900</p>
                                 <div class="visit-auction">
                                     <p>25d 14u 44m</p>
-                                    <a href="#">visit auction &gt;</a>
+                                    <a href="#">visit auction<span></span></a>
                                 </div>
                             </div>
                         </div>

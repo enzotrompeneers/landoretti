@@ -15055,3 +15055,15 @@ h4 {
   padding: 18px;
 }
 
+.related-items .container .grid-container .grid-x .medium-3 .info div .visit-auction a span {
+  background: url("/assets/graphics/arrow-right-blue.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 19px;
+  width: 10px;
+  top: 8px;
+  left: 5px;
+  position: relative;
+  z-index: 10;
+}
+
