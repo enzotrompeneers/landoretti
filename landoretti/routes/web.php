@@ -10,3 +10,5 @@ Route::get('faq', 'FaqController@index')->name('faq');
 
 Route::get('auction', 'AuctionController@index')->name('auction.index');
 Route::get('auction/create', 'AuctionController@create')->name('auction.create');
+
+Route::get('watchlist', 'WatchlistController@index')->name('watchlist');

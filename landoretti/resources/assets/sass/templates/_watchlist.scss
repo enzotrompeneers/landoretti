@@ -1,0 +1,95 @@
+.watchlist {
+	.container {
+		h1 {
+            color: $darkerGrey;
+            font-size: 2.813rem;
+            font-weight: 300;
+        }
+        .grid-container {
+        	.grid-x {
+        		div {
+
+        			&.medium-1 {
+        				width: 30px;
+        			}
+
+
+        			&.medium-11 {
+        				width: 90%;
+        			}
+        			.vertical-align {
+        				margin-top: 100px;
+        				z-index: 50;
+
+        				&:first-child {
+        					margin-top: 190px;
+        				}
+
+        				@media screen and (max-width: $responsive-card-table-stack-point) {
+        					margin-top: 533px;
+        					padding-left: 5px;
+
+        					&:first-child {
+	        					margin-top: 150px;
+	        				}
+
+							@media #{$small-only} {
+								margin-top: 533px;
+
+								&:first-child {
+		        					margin-top: 230px;
+		        				}
+							}
+						}
+        			}
+        			.btn-clear-watchlist, .btn-delete-selected {
+						float: right;
+						margin-left: 5px;
+
+						a {
+							span {
+				                background: $arrow-right-blue;
+				                background-repeat: no-repeat;
+				                display: inline-block;
+				                height: 22px;
+				                width: 12px;
+				                top: 11px;
+				                left: 10px;
+				                position: relative;
+				            }
+						}
+					}
+					
+					.filter {
+						float: left;
+						margin-top: 50px;
+
+						ul {
+							display: inline-block;
+							li {
+								float: left;
+								font-size: 0.938rem;
+
+								&:first-child {
+									font-weight: bold;
+
+									a {
+										border-bottom: 3px solid $color-watchlist-border;
+										padding-bottom: 7px;
+									}
+								}
+
+								&:nth-child(2), &:nth-child(3) {
+									margin-left: 6px;
+								}
+								a {
+									color: $darkerGrey;
+								}
+							}
+						}
+					}
+        		}
+        	}
+        }
+	}
+}

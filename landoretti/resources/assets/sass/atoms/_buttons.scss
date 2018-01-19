@@ -22,7 +22,7 @@
     }
 }
 
-.btn-search, .btn-new-auction {
+.btn-search, .btn-new-auction, .btn-delete-selected, .btn-clear-watchlist {
     a {
         display: inline-block;
         line-height: 50px;
@@ -34,6 +34,7 @@
         font-weight: 700;
         text-align: center;
         text-transform: uppercase;
+        height: 50px;
 
         &:hover {
             background-color: $color-faq-button-hover;
@@ -44,14 +45,25 @@
 .btn-search {
     a {
     	width: 117px;
-        height: 50px;
         border-top: 0;
     }
 }
 
-.btn-new-auction {
+.btn-new-auction, .btn-delete-selected, .btn-clear-watchlist {
     a {
         width: 157px;
-        height: 50px;
     }
 }
+
+.btn-delete-selected, .btn-clear-watchlist {
+    a {
+        margin-bottom: 46px;
+    }
+}
+
+
+                
+
+
+
+

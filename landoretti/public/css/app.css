@@ -12432,7 +12432,9 @@ form .grid-container .grid-x .button {
 }
 
 .btn-search a,
-.btn-new-auction a {
+.btn-new-auction a,
+.btn-delete-selected a,
+.btn-clear-watchlist a {
   display: inline-block;
   line-height: 50px;
   background-color: #f5f5f5;
@@ -12443,22 +12445,30 @@ form .grid-container .grid-x .button {
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
+  height: 50px;
 }
 
 .btn-search a:hover,
-.btn-new-auction a:hover {
+.btn-new-auction a:hover,
+.btn-delete-selected a:hover,
+.btn-clear-watchlist a:hover {
   background-color: #e1e1e1;
 }
 
 .btn-search a {
   width: 117px;
-  height: 50px;
   border-top: 0;
 }
 
-.btn-new-auction a {
+.btn-new-auction a,
+.btn-delete-selected a,
+.btn-clear-watchlist a {
   width: 157px;
-  height: 50px;
+}
+
+.btn-delete-selected a,
+.btn-clear-watchlist a {
+  margin-bottom: 46px;
 }
 
 table {
@@ -14312,5 +14322,99 @@ h4 {
 
 .my-auctions .container .sold {
   margin-bottom: 0;
+}
+
+.watchlist .container h1 {
+  color: #545353;
+  font-size: 2.813rem;
+  font-weight: 300;
+}
+
+.watchlist .container .grid-container .grid-x div.medium-1 {
+  width: 30px;
+}
+
+.watchlist .container .grid-container .grid-x div.medium-11 {
+  width: 90%;
+}
+
+.watchlist .container .grid-container .grid-x div .vertical-align {
+  margin-top: 100px;
+  z-index: 50;
+}
+
+.watchlist .container .grid-container .grid-x div .vertical-align:first-child {
+  margin-top: 190px;
+}
+
+@media screen and (max-width: 777px) {
+  .watchlist .container .grid-container .grid-x div .vertical-align {
+    margin-top: 533px;
+    padding-left: 5px;
+  }
+
+  .watchlist .container .grid-container .grid-x div .vertical-align:first-child {
+    margin-top: 150px;
+  }
+}
+
+@media screen and (max-width: 777px) and (max-width: 42.125em) {
+  .watchlist .container .grid-container .grid-x div .vertical-align {
+    margin-top: 533px;
+  }
+
+  .watchlist .container .grid-container .grid-x div .vertical-align:first-child {
+    margin-top: 230px;
+  }
+}
+
+.watchlist .container .grid-container .grid-x div .btn-clear-watchlist,
+.watchlist .container .grid-container .grid-x div .btn-delete-selected {
+  float: right;
+  margin-left: 5px;
+}
+
+.watchlist .container .grid-container .grid-x div .btn-clear-watchlist a span,
+.watchlist .container .grid-container .grid-x div .btn-delete-selected a span {
+  background: url("/assets/graphics/arrow-right-blue.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 22px;
+  width: 12px;
+  top: 11px;
+  left: 10px;
+  position: relative;
+}
+
+.watchlist .container .grid-container .grid-x div .filter {
+  float: left;
+  margin-top: 50px;
+}
+
+.watchlist .container .grid-container .grid-x div .filter ul {
+  display: inline-block;
+}
+
+.watchlist .container .grid-container .grid-x div .filter ul li {
+  float: left;
+  font-size: 0.938rem;
+}
+
+.watchlist .container .grid-container .grid-x div .filter ul li:first-child {
+  font-weight: bold;
+}
+
+.watchlist .container .grid-container .grid-x div .filter ul li:first-child a {
+  border-bottom: 3px solid #d4d4d4;
+  padding-bottom: 7px;
+}
+
+.watchlist .container .grid-container .grid-x div .filter ul li:nth-child(2),
+.watchlist .container .grid-container .grid-x div .filter ul li:nth-child(3) {
+  margin-left: 6px;
+}
+
+.watchlist .container .grid-container .grid-x div .filter ul li a {
+  color: #545353;
 }
 

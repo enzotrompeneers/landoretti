@@ -18,7 +18,7 @@
 				</ul>
 			</li>
 			@if (Auth::user())
-				<li class="show-for-small-only"><a href=""></a>Watchlist</a></li>
+				<li class="show-for-small-only"><a href="{{ route('watchlist') }}"></a>Watchlist</a></li>
 				<li class="show-for-small-only"><a href="">Profile</a></li>
 				<li class="show-for-small-only"><a href="">Logout</a></li>
 			@else
@@ -62,7 +62,7 @@
 			<ul class="show-for-medium">
 				@if (Auth::user())
 					<div class="state-logged-in">
-						<li><img class="menu-icon"src="{{ asset('assets/graphics/menu-icon.svg') }}" alt="user"><a href=""></a>Watchlist</a></li>
+						<li><img class="menu-icon"src="{{ asset('assets/graphics/menu-icon.svg') }}" alt="user"><a href="{{ route('watchlist') }}"></a>Watchlist</a></li>
 						<li><img class="user-icon"src="{{ asset('assets/graphics/user-icon.svg') }}" alt="user"><a href="">Profile</a></li>
 						<li><a href="">Logout</a></li>
 					</div>
