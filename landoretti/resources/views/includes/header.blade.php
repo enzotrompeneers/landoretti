@@ -14,6 +14,9 @@
 
 <link rel="icon" href="{{ asset('graphics/favicon.ico') }}" type="image/x-icon" >
 <link href="/css/app.css" rel="stylesheet">
+<!--<link href="/css/style.minify.csss" rel="stylesheet">-->
 
 <link href="https://cdn.bootcss.com/OwlCarousel2/2.1.4/assets/owl.carousel.css" rel="stylesheet">
 <link href="https://cdn.bootcss.com/OwlCarousel2/2.1.4/assets/owl.theme.default.css" rel="stylesheet">
+
+@include('analytics')
