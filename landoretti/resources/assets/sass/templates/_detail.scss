@@ -333,3 +333,91 @@
 		}
 	}
 }
+
+.extensive-description {
+	.container {
+		.grid-container {
+			.grid-x {
+				&.container-description {
+					height: 383px;
+					margin: 50px 0;
+					border: 1px solid $lightergrey;
+					padding: 35px 20px;
+
+					@media (max-width: 767px) {
+						height: auto;
+					}
+
+					.small-9 {
+						height: 100%;
+						padding: 0;
+						width: calc(100%/984*690);
+						margin-right: calc(100%/984*64);
+
+						@media (max-width: 767px) {
+							width: 100%;
+						}
+
+						.description, .condition {
+							&:first-child {
+								margin-bottom: 27px;
+							}
+
+							h6 {
+								margin: 0;
+								color:  #000;
+								font-size: 0.813rem;
+								font-weight: 700;
+								line-height: 1.538;
+							}
+
+							p {
+								color: $darkerGrey;
+								font-size: 0.75rem;
+								font-weight: 400;
+								line-height: 1.667;
+								margin-bottom: 0;
+
+							}
+						}
+					}
+
+					.small-3 {
+						border-left: solid 1px $lightergrey;
+						height: 100%;
+						width: calc(100%/984*230);
+						padding: 0 0 0 20px;
+
+						@media (max-width: 767px) {
+							width: 100%;
+							padding-left: 0;
+							margin-top: 20px;
+							border: none;
+						}
+
+						div {
+							.artist, .dimensions, .color {
+								margin-bottom: 30px;
+
+								p {
+									margin: 0;
+									color: $darkerGrey;
+									font-size: 0.813rem;
+									font-weight: 400;
+									line-height: 1.538;
+
+									&.title {
+										font-size: 0.813rem;
+										font-weight: 700;
+										line-height: 1.538;
+										color: #000;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

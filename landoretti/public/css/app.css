@@ -12471,6 +12471,44 @@ form .grid-container .grid-x .button {
   margin-bottom: 46px;
 }
 
+.btn-question {
+  height: 59px;
+  background-color: #757575;
+  width: 209px;
+  border-radius: 0;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.btn-question a {
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.214;
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.btn-question a:hover {
+  text-decoration: none;
+}
+
 table {
   width: 100%;
 }
@@ -14746,5 +14784,95 @@ h4 {
   font-size: 0.875rem;
   font-weight: 700;
   border-bottom: 1px solid #0a1e75;
+}
+
+.extensive-description .container .grid-container .grid-x.container-description {
+  height: 383px;
+  margin: 50px 0;
+  border: 1px solid #e5e5e5;
+  padding: 35px 20px;
+}
+
+@media (max-width: 767px) {
+  .extensive-description .container .grid-container .grid-x.container-description {
+    height: auto;
+  }
+}
+
+.extensive-description .container .grid-container .grid-x.container-description .small-9 {
+  height: 100%;
+  padding: 0;
+  width: calc(100%/984*690);
+  margin-right: calc(100%/984*64);
+}
+
+@media (max-width: 767px) {
+  .extensive-description .container .grid-container .grid-x.container-description .small-9 {
+    width: 100%;
+  }
+}
+
+.extensive-description .container .grid-container .grid-x.container-description .small-9 .description:first-child,
+.extensive-description .container .grid-container .grid-x.container-description .small-9 .condition:first-child {
+  margin-bottom: 27px;
+}
+
+.extensive-description .container .grid-container .grid-x.container-description .small-9 .description h6,
+.extensive-description .container .grid-container .grid-x.container-description .small-9 .condition h6 {
+  margin: 0;
+  color: #000;
+  font-size: 0.813rem;
+  font-weight: 700;
+  line-height: 1.538;
+}
+
+.extensive-description .container .grid-container .grid-x.container-description .small-9 .description p,
+.extensive-description .container .grid-container .grid-x.container-description .small-9 .condition p {
+  color: #545353;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.667;
+  margin-bottom: 0;
+}
+
+.extensive-description .container .grid-container .grid-x.container-description .small-3 {
+  border-left: solid 1px #e5e5e5;
+  height: 100%;
+  width: calc(100%/984*230);
+  padding: 0 0 0 20px;
+}
+
+@media (max-width: 767px) {
+  .extensive-description .container .grid-container .grid-x.container-description .small-3 {
+    width: 100%;
+    padding-left: 0;
+    margin-top: 20px;
+    border: none;
+  }
+}
+
+.extensive-description .container .grid-container .grid-x.container-description .small-3 div .artist,
+.extensive-description .container .grid-container .grid-x.container-description .small-3 div .dimensions,
+.extensive-description .container .grid-container .grid-x.container-description .small-3 div .color {
+  margin-bottom: 30px;
+}
+
+.extensive-description .container .grid-container .grid-x.container-description .small-3 div .artist p,
+.extensive-description .container .grid-container .grid-x.container-description .small-3 div .dimensions p,
+.extensive-description .container .grid-container .grid-x.container-description .small-3 div .color p {
+  margin: 0;
+  color: #545353;
+  font-size: 0.813rem;
+  font-weight: 400;
+  line-height: 1.538;
+}
+
+.extensive-description .container .grid-container .grid-x.container-description .small-3 div .artist p.title,
+.extensive-description .container .grid-container .grid-x.container-description .small-3 div .dimensions p.title,
+.extensive-description .container .grid-container .grid-x.container-description .small-3 div .color p.title {
+  font-size: 0.813rem;
+  font-weight: 700;
+  line-height: 1.538;
+  color: #000;
 }
 
