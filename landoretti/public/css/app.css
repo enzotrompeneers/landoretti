@@ -15067,3 +15067,257 @@ h4 {
   z-index: 10;
 }
 
+.profile .container h1 {
+  color: #545353;
+  font-size: 2.813rem;
+  font-weight: 300;
+}
+
+.profile .container .profile-info {
+  height: 190px;
+  border: 1px solid #e5e5e5;
+}
+
+@media (max-width: 767px) {
+  .profile .container .profile-info {
+    height: auto;
+  }
+}
+
+.profile .container .profile-info h5 {
+  font-size: 1.3125rem;
+  font-weight: 400;
+  color: #565656;
+  margin-top: 20px;
+  margin-left: 45px;
+  margin-bottom: 10px;
+}
+
+.profile .container .profile-info .grid-container .grid-x .small-3 {
+  padding: 0;
+  color: #575757;
+  font-size: 0.9375rem;
+}
+
+.profile .container .profile-info .grid-container .grid-x .small-3 p,
+.profile .container .profile-info .grid-container .grid-x .small-3 h6 {
+  margin: 0;
+}
+
+.profile .container .profile-info .grid-container .grid-x .small-3.border-right {
+  width: calc(100%/1024*267);
+  border-right: 1px solid #e5e5e5;
+  padding-left: 45px;
+}
+
+.profile .container .profile-info .grid-container .grid-x .small-3 .vat,
+.profile .container .profile-info .grid-container .grid-x .small-3 .account {
+  padding-left: 45px;
+  padding-top: 4px;
+}
+
+.profile .container .profile-info .grid-container .grid-x .small-3 .vat h6,
+.profile .container .profile-info .grid-container .grid-x .small-3 .account h6 {
+  color: #0a1e75;
+  font-size: 0.984375rem;
+}
+
+.profile .container .profile-info .grid-container .grid-x .small-3 .vat p,
+.profile .container .profile-info .grid-container .grid-x .small-3 .account p {
+  padding-left: 10px;
+}
+
+.profile .container .profile-info .grid-container .grid-x .small-3 .vat {
+  margin-bottom: 20px;
+}
+
+.profile .container .profile-info .grid-container .grid-x .small-3 .personal-information {
+  margin-bottom: 20px;
+}
+
+.profile .container .profile-info .grid-container .grid-x .small-3 .personal-information p:first-child {
+  display: inline-block;
+  color: #01a6a0;
+  border-bottom: 1px solid #01a6a0;
+}
+
+.profile .container .profile-info .grid-container .grid-x .small-3 .personal-information p.icon {
+  margin-right: 5px;
+}
+
+.active-auctions .container h2 {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-size: 1.5625rem;
+  color: #545353;
+  font-weight: 100;
+  text-align: left;
+}
+
+.active-auctions .container .grid-container .grid-x .medium-3 {
+  width: calc(100%/1024*250);
+  height: 382px;
+  margin-right: calc(100%/1024*8);
+  padding: 0;
+  margin-bottom: 50px;
+}
+
+.active-auctions .container .grid-container .grid-x .medium-3 .small-12 {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  padding: 0;
+}
+
+.active-auctions .container .grid-container .grid-x .medium-3 .small-12:hover a {
+  opacity: 1;
+  top: 0;
+  z-index: 2;
+  background-color: #565656;
+  opacity: 0.702;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
+}
+
+.active-auctions .container .grid-container .grid-x .medium-3 .small-12:hover a img {
+  top: 50%;
+  position: absolute;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+          transform: translateY(-50%) translateX(-50%);
+  width: calc(100%/702*115);
+  height: calc(100%/348*113);
+  cursor: pointer;
+  width: 30%;
+  height: 30%;
+}
+
+.active-auctions .container .grid-container .grid-x .medium-3 .small-12 img {
+  width: 100%;
+}
+
+.active-auctions .container .grid-container .grid-x .medium-3 .small-12 a {
+  display: block;
+  position: absolute;
+  opacity: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .active-auctions .container .grid-container .grid-x .medium-3 {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    height: auto;
+    padding-bottom: 20px;
+  }
+}
+
+.active-auctions .container .grid-container .grid-x .medium-3:last-child {
+  margin-right: 0;
+}
+
+.active-auctions .container .grid-container .grid-x .medium-3 .image {
+  height: 250px;
+  width: 100%;
+}
+
+.active-auctions .container .grid-container .grid-x .medium-3 .image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.active-auctions .container .grid-container .grid-x .medium-3 .info {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 132px;
+  padding-top: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.active-auctions .container .grid-container .grid-x .medium-3 .info div a {
+  color: #0a1e75;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.active-auctions .container .grid-container .grid-x .medium-3 .info div h6 {
+  color: #545353;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.05;
+  margin: 0;
+}
+
+.active-auctions .container .grid-container .grid-x .medium-3 .info div p {
+  font-size: 1.4em;
+}
+
+.active-auctions .container .grid-container .grid-x .medium-3 .info div p.price {
+  color: #545353;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.389;
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  .active-auctions .container .grid-container .grid-x .medium-3 .info div p.price {
+    padding-bottom: 20px;
+  }
+}
+
+.active-auctions .container .grid-container .grid-x .medium-3 .info div .visit-auction {
+  float: left;
+  border-bottom: 1px solid #e5e5e5;
+  margin-top: -7px;
+  text-align: center;
+  line-height: 48px;
+}
+
+.active-auctions .container .grid-container .grid-x .medium-3 .info div .visit-auction p {
+  margin-top: 22px;
+  margin-right: 5px;
+  color: #545353;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 0.714;
+  float: left;
+}
+
+.active-auctions .container .grid-container .grid-x .medium-3 .info div .visit-auction a {
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 50px;
+  height: 500px;
+  width: 117px;
+  border: 1px solid #e5e5e5;
+  color: #0a1e75;
+  text-transform: uppercase;
+  padding: 18px;
+  background: #f4f4f4;
+}
+
+.active-auctions .container .grid-container .grid-x .medium-3 .info div .visit-auction a span {
+  background: url("/assets/graphics/arrow-right-blue.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 19px;
+  width: 10px;
+  top: 8px;
+  left: 5px;
+  position: relative;
+  z-index: 10;
+}
+

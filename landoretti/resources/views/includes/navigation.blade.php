@@ -19,7 +19,7 @@
 			</li>
 			@if (Auth::user())
 				<li class="show-for-small-only"><a href="{{ route('watchlist') }}"></a>Watchlist</a></li>
-				<li class="show-for-small-only"><a href="">Profile</a></li>
+				<li class="show-for-small-only"><a href="{{ route('profile') }}">Profile</a></li>
 				<li class="show-for-small-only"><a href="">Logout</a></li>
 			@else
 				<li class="show-for-small-only"><a href="{{ route('register') }}">Register</a></li>
