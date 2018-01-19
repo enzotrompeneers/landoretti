@@ -1,0 +1,62 @@
+.my-auctions {
+	.container {
+		h1 {
+            color: $darkerGrey;
+            font-size: 2.813rem;
+            font-weight: 300;
+            margin-bottom: 0;
+        }
+
+        .btn-new-auction {
+            float: right;
+
+            span {
+                background: $arrow-right-blue;
+                background-repeat: no-repeat;
+                display: inline-block;
+                height: 22px;
+                width: 12px;
+                top: 11px;
+                left: 10px;
+                position: relative;
+            }
+        }
+
+		.pending, .refused, .active, .expired, .sold {
+			margin-bottom: 55px;
+
+			h3 {
+                color: $darkerGrey;
+	            font-size: 1.563rem;
+	            font-weight: 300;
+	            line-height: 0.84;
+	            margin-bottom: 27px;
+			}
+		}
+
+		.active {
+			.info-message {
+			    color: #545353;
+			    font-size: 0.875rem;
+			    font-weight: 300;
+			    line-height: 1.5;
+			    padding-bottom: 12px;
+			}
+		}
+
+		.pending {
+			clear: both;
+			display: block;
+			content: "";
+			margin-bottom: 55px;
+		}
+
+		.sold {
+			margin-bottom: 0;
+		}
+	}
+}
+
+.new-auction {
+
+}

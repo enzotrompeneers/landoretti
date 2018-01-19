@@ -4,7 +4,7 @@
 	width: calc(100%/1024*268);
 	font-family: 'Helvetica', sans-serif;
 	font-weight: lighter;
-	font-size: 1.3em;
+	font-size: 1.3rem;
 	background-color: $color-primary;
 	height: 60px;
 	width: 255px;
@@ -22,25 +22,36 @@
     }
 }
 
-.btn-search {
+.btn-search, .btn-new-auction {
     a {
-    	width: 117px;
-        height: 48px;
         display: inline-block;
-        line-height: 48px;
+        line-height: 50px;
         background-color: $lightestGrey;
         border: 1px solid $lightergrey;
-        border-top: 0;
-        font-weight: bold;
         color: $color-secondary;
         text-decoration: none;
-		font-size: 0.75rem;
-		font-weight: 700;
-		text-align: center;
-		text-transform: uppercase;
+        font-size: 0.75rem;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
 
         &:hover {
             background-color: $color-faq-button-hover;
         }
+    }
+}
+
+.btn-search {
+    a {
+    	width: 117px;
+        height: 50px;
+        border-top: 0;
+    }
+}
+
+.btn-new-auction {
+    a {
+        width: 157px;
+        height: 50px;
     }
 }

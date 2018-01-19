@@ -41,7 +41,7 @@
 			<li class="show-for-small-only"><a href="{{ route('lander') }}">Home</a></li>
 			<li class="show-for-small-only"><a href="">Art</a></li>
 			<li class="show-for-small-only"><a href="{{ route('isearch') }}">Isearch</a></li>
-			<li class="show-for-small-only"><a href="">Myaunctions</a></li>
+			<li class="show-for-small-only"><a href="{{ route('auction.index') }}">Myauctions</a></li>
 			<li class="show-for-small-only"><a href="">Mybids</a></li>
 			<li class="show-for-small-only"><a href="">Contact</a></li>
 		</ul>
@@ -102,7 +102,7 @@
 					<li><a href="{{ route('lander') }}">Home</a></li>
 					<li><a href="">Art</a></li>
 					<li><a href="{{ route('isearch') }}">Isearch</a></li>
-					<li><a href="">Myaunctions</a></li>
+					<li><a href="{{ route('auction.index') }}">Myauctions</a></li>
 					<li><a href="">Mybids</a></li>
 					<li><a href="">Contact</a></li>
 				</ul>

@@ -38,6 +38,9 @@ $color-footer-background: #eaeaea;
 
 $color-idea-line: #6c7dc6;
 
+$color-table-border: #cacaca;
+$color-table-th-background: #f8f8f8;
+
 $darkestGrey: #757575;
 $darkerGrey: #545353;
 $darkgrey: #4e4e4e;
@@ -73,6 +76,11 @@ $size-container-medium: 702;
 $size-container-small: 314;
 
 $size-container-spotlight: 536px;
+
+// responsive table
+$responsive-card-table-bottom-gap: 1.5rem;
+$responsive-card-table-stack-point: 777px;
+$responsive-card-table-label-bg: $light-gray;
 
 
 // selectors
