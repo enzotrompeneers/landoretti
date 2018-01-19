@@ -30,8 +30,8 @@
                             <th>Remaining time</th>
                         </tr>
                     </thead>
-
                     <tbody>
+
                         <tr>
                             <td data-label="Auction details">
                                 <div class="image">
