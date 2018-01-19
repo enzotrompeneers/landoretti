@@ -130,22 +130,111 @@
                                     <p>Spanish</p>
                                     <p>1904 - 1989</p>
                                 </div>
+
                                 <div class="dimensions">
                                     <p class="title">Dimensions</p>
                                     <p>10.43 x 10.43 x 10.44 cm</p>
                                 </div>
+
                                 <div class="color">
                                     <p class="title">Color</p>
                                     <p>Bronze, patinated bronze and gold</p>
                                 </div>
+
                                 <div class="btn-question">
                                     <a href="#">Ask a question<br>about this auction</a>
                                 </div>
                             </div>
                         </div>
-                    
                 </div>
             </div>
+        </div>
+    </section>
+
+    <section class="related-items">
+        <div class="container">
+            <h2>Related items</h2>
+            <div class="grid-container">
+                <div class="grid-x">
+                    
+                   <div class="cell small-12 medium-3">                
+                        
+
+                        <div class="cell small-12">
+                            <img class="overlay" src="{{ asset('assets/graphics/green-clock.jpg') }}" title="green clock" alt="green clock">
+                            <a href="#"><img src="{{ asset('assets/graphics/search-white.svg') }}" alt="search"></a>
+                        </div>
+
+                        <div class="info">
+                            <div>
+                                <a href="#">1979, Salvador Dali</a>
+                                <h6>Dance of Time III</h6>
+                                <p class="price">€ 8.900</p>
+                                <div class="visit-auction">
+                                    <p>25d 14u 44m</p>
+                                    <a href="#">visit auction &gt;</a>
+                                </div>
+                            </div>
+                        </div>                       
+                    </div>
+
+                    <div class="cell small-12 medium-3">
+                        <div class="cell small-12">
+                            <img class="overlay" src="{{ asset('assets/graphics/blue-portret.jpg') }}" title="blue portret" alt="blue portret">
+                            <a href="#"><img src="{{ asset('assets/graphics/search-white.svg') }}" alt="search"></a>
+                        </div>
+
+                        <div class="info">
+                            <div>
+                                <a href="#">1979, Salvador Dali</a>
+                                <h6>Dance of Time III</h6>
+                                <p class="price">€ 8.900</p>
+                                <div class="visit-auction">
+                                    <p>25d 14u 44m</p>
+                                    <a href="#">visit auction &gt;</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                   <div class="cell small-12 medium-3">
+                        <div class="cell small-12">
+                            <img class="overlay" src="{{ asset('assets/graphics/woman-walking.jpg') }}" title="woman walking" alt="woman walking">
+                            <a href="#"><img src="{{ asset('assets/graphics/search-white.svg') }}" alt="search"></a>
+                        </div>
+
+                        <div class="info">
+                            <div>
+                                <a href="#">1979, Salvador Dali</a>
+                                <h6>Dance of Time III</h6>
+                                <p class="price">€ 8.900</p>
+                                <div class="visit-auction">
+                                    <p>25d 14u 44m</p>
+                                    <a href="#">visit auction &gt;</a>
+                                </div>
+                            </div>
+                        </div>                
+                    </div>
+
+                    <div class="cell small-12 medium-3">
+                        <div class="cell small-12">
+                            <img class="overlay" src="{{ asset('assets/graphics/body.jpg') }}" title="body" alt="body">
+                            <a href="#"><img src="{{ asset('assets/graphics/search-white.svg') }}" alt="search"></a>
+                        </div>
+
+                        <div class="info">
+                            <div>
+                                <a href="#">1979, Salvador Dali</a>
+                                <h6>Dance of Time III</h6>
+                                <p class="price">€ 8.900</p>
+                                <div class="visit-auction">
+                                    <p>25d 14u 44m</p>
+                                    <a href="#">visit auction &gt;</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

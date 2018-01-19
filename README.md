@@ -20,7 +20,7 @@ Frontend: Een veilingsite voor kunstmerk. Responsive website moet hetzelfde erui
 14/1/18 Footer rensponsive by grid frame, footer navigation and responsive  
 17/1/18 init search, spotlight  
 18/1/18 Add search request with validation, overview, register, faq  
-19/1/18 my aunctions and responsive table, watchlist, detail images with overlay and sidebar, extensive description  
+19/1/18 my aunctions and responsive table, watchlist, detail images with overlay and sidebar, extensive description, related items  
 
 ## init project (cli)
 - `laravel new landoretti` (start project called landoretti)

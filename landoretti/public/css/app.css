@@ -14876,3 +14876,182 @@ h4 {
   color: #000;
 }
 
+.related-items {
+  height: 547px;
+  background-color: #f4f4f4;
+}
+
+@media (max-width: 767px) {
+  .related-items {
+    height: auto;
+  }
+}
+
+.related-items .container {
+  height: 100%;
+}
+
+.related-items .container h2 {
+  color: #0a1e75;
+  font-size: 1.875rem;
+  font-weight: 300;
+  text-align: left;
+  padding-top: 44px;
+  padding-bottom: 49px;
+  line-height: 23px;
+}
+
+.related-items .container .grid-container .grid-x .medium-3 {
+  width: calc(100%/1024*250);
+  height: 382px;
+  margin-right: calc(100%/1024*8);
+  padding: 0;
+  margin-bottom: 50px;
+}
+
+.related-items .container .grid-container .grid-x .medium-3 .small-12 {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  padding: 0;
+}
+
+.related-items .container .grid-container .grid-x .medium-3 .small-12:hover a {
+  opacity: 1;
+  top: 0;
+  z-index: 2;
+  background-color: #565656;
+  opacity: 0.702;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
+}
+
+.related-items .container .grid-container .grid-x .medium-3 .small-12:hover a img {
+  top: 50%;
+  position: absolute;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+          transform: translateY(-50%) translateX(-50%);
+  width: calc(100%/702*115);
+  height: calc(100%/348*113);
+  cursor: pointer;
+  width: 30%;
+  height: 30%;
+}
+
+.related-items .container .grid-container .grid-x .medium-3 .small-12 img {
+  width: 100%;
+}
+
+.related-items .container .grid-container .grid-x .medium-3 .small-12 a {
+  display: block;
+  position: absolute;
+  opacity: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .related-items .container .grid-container .grid-x .medium-3 {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    height: auto;
+    padding-bottom: 20px;
+  }
+}
+
+.related-items .container .grid-container .grid-x .medium-3:last-child {
+  margin-right: 0;
+}
+
+.related-items .container .grid-container .grid-x .medium-3 .image {
+  height: 250px;
+  width: 100%;
+}
+
+.related-items .container .grid-container .grid-x .medium-3 .image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.related-items .container .grid-container .grid-x .medium-3 .info {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 132px;
+  padding-top: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.related-items .container .grid-container .grid-x .medium-3 .info div a {
+  color: #0a1e75;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.related-items .container .grid-container .grid-x .medium-3 .info div h6 {
+  color: #545353;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.05;
+  margin: 0;
+}
+
+.related-items .container .grid-container .grid-x .medium-3 .info div p {
+  font-size: 1.4em;
+}
+
+.related-items .container .grid-container .grid-x .medium-3 .info div p.price {
+  color: #545353;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.389;
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  .related-items .container .grid-container .grid-x .medium-3 .info div p.price {
+    padding-bottom: 20px;
+  }
+}
+
+.related-items .container .grid-container .grid-x .medium-3 .info div .visit-auction {
+  float: left;
+  border-bottom: 1px solid #e5e5e5;
+  margin-top: -7px;
+  text-align: center;
+  line-height: 48px;
+}
+
+.related-items .container .grid-container .grid-x .medium-3 .info div .visit-auction p {
+  margin-top: 22px;
+  margin-right: 11px;
+  color: #545353;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 0.714;
+  float: left;
+}
+
+.related-items .container .grid-container .grid-x .medium-3 .info div .visit-auction a {
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 50px;
+  height: 500px;
+  width: 117px;
+  border: 1px solid #e5e5e5;
+  color: #0a1e75;
+  text-transform: uppercase;
+  padding: 18px;
+}
+
