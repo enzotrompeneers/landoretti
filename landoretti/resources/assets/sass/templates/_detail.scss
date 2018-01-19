@@ -1,0 +1,335 @@
+.detail {
+	.container {
+		h1 {
+			color: $darkerGrey;
+			font-size: 2.813rem;
+			font-weight: 300;
+			line-height: 0.467;
+			margin-bottom: 0;
+			padding-bottom: 20px;
+		}
+
+		.date {
+			color:  $darkerGrey;
+			font-size: 0.875rem;
+			font-weight: 400;
+			line-height: 2.143;
+			margin: 5px 0 23px 0;
+
+			span {
+				color: $color-secondary;
+				line-height: 1.571;
+
+				&.hamburger {
+					background: $hamburger-menu;
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                    height: 22px;
+                    width: 12px;
+                    top: 11px;
+                    left: 10px;
+                    position: relative;
+				}
+			}
+
+
+		}
+
+		.grid-container {
+			margin: 0;
+			padding: 0;
+
+			.grid-x {
+				margin: 0;
+				padding: 0;
+
+				.small-8 {
+					width: calc(100%/1024*710);
+					margin-right: calc(100%/1024*64);
+
+					@media (max-width: 767px) {
+						width: 100%;
+					}
+
+					div {
+						div {
+							.main {
+								height: 381px;
+								margin-bottom: 12px;
+
+								img {
+									border: 1px solid #a4a4a4;
+									width: 100%;
+									height: 100%;
+									object-fit: cover;
+								}
+							}
+						}
+
+
+						.detail-pictures {
+							width: 100%;
+
+							.thumbnails {
+								display: inline-block;
+								width: 100%;
+
+								&::after {
+									clear: both;
+									display: block;
+									content: "";
+								}
+
+								a {
+									float: left;
+									width: calc(100%/710*229);
+									padding: 0;
+									height: 109px;
+									cursor: pointer;
+
+									&:hover {
+										.overlay {
+											background-color: rgba(255, 255, 255, 0);
+										}
+									}
+
+									&:nth-child(1) {
+										margin-right: calc(100%/710*12);
+									}
+
+									&:nth-child(2) {
+										margin-right: calc(100%/710*11);
+									}
+									
+									
+									.overlay {
+										opacity: 0.3;
+
+										&:hover {
+											opacity: 1;
+										}
+									}
+									
+
+									img {
+										width: 100%;
+										object-fit: cover;
+										height: 100%;
+										border: 1px solid #a4a4a4;
+									}
+								}
+							}
+						}
+					}
+				}
+
+				.small-4 {
+					width: calc(100%/1024*250);
+
+					@media (max-width: 767px) {
+						width: 100%;
+						&.no-padding {
+							margin-top: 50px;
+						}
+					}
+
+					.sidebar-description {
+						text-align: right;
+						margin-bottom: 50px;
+
+						.title {
+							border-bottom: 1px solid $lightergrey;
+							height: 51px;
+
+							h6 {
+								margin: 0;
+								color:  #000;
+								font-size: 1.688rem;
+								font-weight: 400;
+								line-height: 0.778;
+							}
+
+							a {
+								color: $color-secondary;
+								font-size: 0.875rem;
+								font-weight: 400;
+								line-height: 1.5;
+							}
+						}
+
+						.expire {
+							display: flex;
+							align-items: center;
+							justify-content: flex-end;
+							border-bottom: 1px solid $lightergrey;
+							height: 73px;
+							
+
+							div {
+								p {
+									margin: 0;
+									font-size: 0.875rem;
+									font-weight: 400;
+									line-height: 2.143;
+									color: $darkerGrey;
+
+									&.date {
+										color: $color-primary;
+									}
+								}
+							}
+						}
+
+						.description {
+							margin-top: 22px;
+
+							p {
+								font-size: 0.813rem;
+								font-weight: 400;
+								line-height: 1.538;
+								margin: 0;
+								color: #000;
+							}
+
+							a {
+								
+								font-size: 0.875rem;
+								font-weight: 700;
+								line-height: 1.429;
+								text-decoration: underline;
+								color: #000;
+							}
+						}
+					}
+
+					.container-estimated {
+						border: 1px solid $lightergrey;
+						text-align: right;
+						height: 233px;
+
+						.estimated {
+							margin-right: 20px;
+							margin-bottom: 0;
+							display: flex;
+							align-items: center;
+							justify-content: flex-end;
+							
+
+							div {
+								p {
+									margin: 0;
+									color:  $color-secondary;
+									font-size: 1rem;
+									font-weight: 400;
+									line-height: 2.188;
+
+									&.price {
+										font-size: 1.563rem;
+										font-weight: 700;
+									}
+								}
+
+								a {
+									font-size: 0.875rem;
+									font-weight: 700;
+									line-height: 1.571;
+									text-decoration: underline;
+									color: $color-primary;
+								}
+							}
+						}
+
+						.visit-auction {
+							p {
+								color:  $darkerGrey;
+								font-size: 0.875rem;
+								font-weight: 400;
+								line-height: 1.571;
+								margin: 0;
+								padding-right: 20px;
+							}
+
+							.bidding {
+								form {
+									width: 100%;
+									height: 60px;
+									background-color: $color-primary;
+									display: flex;
+
+									padding: 12px 20px 11px 18px;
+
+									input {
+										float: left;
+										color: #000;
+										font-size: 1.063rem;
+										font-weight: 400;
+										line-height: 0.588;
+										font-family: $font-primary;
+
+										&[type="text"] {
+											font-family: $font-primary;
+											height: 37px;
+											width: 112px;
+											font-size: 1.7em;
+											padding-left: 14px;
+										}
+
+										&[type="submit"] {
+											background: transparent;
+											border: none;
+											margin-left: 8px;
+											color:  #fff;
+											font-size: 0.875rem;
+											font-weight: 700;
+											line-height: 0.714;
+											text-align: center;
+											text-transform: uppercase;
+										}
+									}
+
+									span {
+										background: $arrow-right-white;
+						                background-repeat: no-repeat;
+						                display: inline-block;
+						                height: 19px;
+						                width: 10px;
+						                top: 11px;
+						                left: 10px;
+						                position: relative;
+						                z-index: 10;
+									}
+								}
+							}
+						}
+
+						.add-to-watchlist {
+							text-align: center;
+							height: 37px;
+							line-height: 37px;
+
+							span {
+								background: $hamburger-menu;
+				                background-repeat: no-repeat;
+				                display: inline-block;
+				                height: 19px;
+				                width: 10px;
+				                top: 11px;
+				                right: 5px;
+				                position: relative;
+				                z-index: 10;
+							}
+
+							a {
+								color: $color-secondary;
+								font-family: $font-primary;
+								font-size: 0.875rem;
+								font-weight: 700;
+								border-bottom: 1px solid $color-secondary;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
